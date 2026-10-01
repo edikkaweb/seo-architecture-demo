@@ -1,0 +1,14 @@
+import {mkdir,cp,writeFile,readFile,readdir} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+import {display,readJSON,root} from './derive.mjs';
+import {makeGraph} from './engine.mjs';
+import {page} from './render.mjs';
+const dist=new URL('dist/',root);await mkdir(new URL('assets/',dist),{recursive:true});
+const graph=makeGraph((await readJSON('originals/graph.json')).adjacency);
+for(const lang of ['fr','en'])await writeFile(new URL(lang==='en'?'index-en.html':'index.html',dist),page(display,graph,lang));
+for(const file of ['engine.mjs','render.mjs','app.mjs','style.css'])await cp(new URL('src/'+file,root),new URL('assets/'+file,dist));
+await cp(new URL('originals/',root),new URL('originals/',dist),{recursive:true});await cp(new URL('data/',root),new URL('data/',dist),{recursive:true});
+await writeFile(new URL('assets/favicon.svg',dist),'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="#15232c"/><text x="15" y="48" font-family="Arial" font-weight="bold" font-size="49" fill="#fff">e</text><circle cx="52" cy="46" r="4" fill="#b3bc8f"/></svg>');
+await writeFile(new URL('.nojekyll',dist),'');
+const files={};async function walk(dir,pre=''){for(const ent of await readdir(dir,{withFileTypes:true})){const key=pre+ent.name;if(ent.isDirectory())await walk(new URL(ent.name+'/',dir),key+'/');else if(key!=='build-manifest.json'){const b=await readFile(new URL(ent.name,dir));files[key]={bytes:b.length,sha256:createHash('sha256').update(b).digest('hex')};}}}await walk(dist);
+await writeFile(new URL('build-manifest.json',dist),JSON.stringify({demo_version:display.demo_version,data_version:display.provenance.data_version,files},null,2)+'\n');console.log('Built '+Object.keys(files).length+' static files.');

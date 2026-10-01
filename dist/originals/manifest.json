@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.1.0",
+  "package": "architecture-seo-decision-matrix",
+  "version": "1.1.0",
+  "prepared_at": "2026-09-21",
+  "roots": [
+    "https://www.edikka.com/"
+  ],
+  "inventory_sources": [
+    {
+      "path": "audit/reference-france-2026-09-09/crawl.json",
+      "observed_at": "2026-09-09",
+      "pages": 188
+    }
+  ],
+  "parameters": {
+    "internal_host": "www.edikka.com",
+    "remove_fragments": true,
+    "preserve_query_strings": true,
+    "trailing_slash": "removed except origin root",
+    "link_origin": "html as recorded by archived crawl",
+    "page_area": "unknown"
+  },
+  "tool": {
+    "name": "scripts/build-architecture-seo-instrument.mjs",
+    "runtime": "v22.12.0"
+  },
+  "limitations": [
+    "The source crawl post-dates the 15 August intervention.",
+    "The archive stores destinations but not anchor text or DOM area for each link.",
+    "No Search Console performance or URL Inspection data is included.",
+    "pages.csv and links.csv remain concise evidence extracts; graph.json contains the complete normalised adjacency used by the calculation.",
+    "The public replay establishes the graph result only within the declared archived HTML scope."
+  ],
+  "files": {
+    "pages.csv": {
+      "bytes": 1943,
+      "sha256": "6e97cfa67c11f3b0696a59ad794108ddb5291f4fbbce43c0bbc94a087d766738"
+    },
+    "links.csv": {
+      "bytes": 8631,
+      "sha256": "6e2168b26838205856609cd27a35fd0afe23a105da04586bb32bc96efd983d34"
+    },
+    "paths.csv": {
+      "bytes": 1940,
+      "sha256": "2a47a15e0c60553978c24ed4357060e08427e052308d0cfcf593b80a057c5d29"
+    },
+    "decisions.csv": {
+      "bytes": 2332,
+      "sha256": "b697dd794e4f1674a49227f9b8c7886527b04fc93572ce7df19acd75541c7ce4"
+    },
+    "decisions-blank.csv": {
+      "bytes": 133,
+      "sha256": "e2d723655dd9966e1d5cdfd0e166324778fe23a71f7e480a2f53a963f3fd47f7"
+    },
+    "data-dictionary.csv": {
+      "bytes": 1012,
+      "sha256": "d1ea427e7c84e37a455d3421ed1e2dacd09653343b791cb493c0d124a2711c7a"
+    },
+    "README.md": {
+      "bytes": 2388,
+      "sha256": "79e3c3195b1f68ad9e7cfa626c87054ff4c19f28fc8c64e7e0595e0af0b818cf"
+    },
+    "license.txt": {
+      "bytes": 322,
+      "sha256": "cd583614ff71744c922edab980e92be2b5e0871a90f1f44bdad34fdf5f5a9d62"
+    },
+    "graph.json": {
+      "bytes": 423772,
+      "sha256": "388b000e10245938560fdad4cafac61c9f99edd62f1e7a924aaadc4d330da4f9"
+    },
+    "reproduce-paths.mjs": {
+      "bytes": 1931,
+      "sha256": "e736d325b92eeff72b18dc496746db65b4ba3980a14d5294ed4cc95afc7a90f2"
+    },
+    "path-analysis.json": {
+      "bytes": 11259,
+      "sha256": "e5dfb3f5c9ac1a846abcf862ff8e38703e16fe9238108555344ff13b83905708"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+https://creativecommons.org/licenses/by/4.0/
+
+Applies only to the files in this Architecture SEO decision-matrix package. Attribution: Edikka — “SEO Architecture Decision Matrix”, version 1.1.0, source URL and access date. No trademark rights are granted.

@@ -1,0 +1,1 @@
+{"name":"edikka-seo-architecture-demo","version":"1.0.0","private":true,"type":"module","engines":{"node":">=22"},"scripts":{"import":"node src/import.mjs","build":"node src/build.mjs","test":"node --test tests/*.test.mjs","replay":"node src/replay.mjs","serve":"node src/serve.mjs"},"license":"MIT"}

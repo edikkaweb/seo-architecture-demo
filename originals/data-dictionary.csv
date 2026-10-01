@@ -1,0 +1,10 @@
+file,field,type,description,missing_value_rule
+pages.csv,url,absolute URL,Inventoried page URL.,required
+pages.csv,editorial_role,controlled text,Editorial function assigned for this extract.,Use unknown; never infer from indexability.
+pages.csv,verification_status,controlled text,Status of the supporting observation.,"Use unavailable or not_measured, never zero."
+links.csv,source_url,absolute URL,Page on which the directed link was observed.,required
+links.csv,destination_url,absolute URL,Normalised internal destination.,required
+links.csv,source_distinct_count,integer,Number of distinct source pages observed for the destination.,Do not substitute occurrence_count.
+paths.csv,step,integer,One-based edge position in the shortest observed path.,required
+decisions.csv,verification_status,controlled text,"verified, unavailable or not_measured.",Unknown evidence must not become a negative result.
+decisions.csv,limitations,text,Boundary on interpretation or reuse.,required for every published decision.

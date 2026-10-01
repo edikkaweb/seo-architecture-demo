@@ -1,0 +1,4426 @@
+{
+  "demo_version": "1.0.0",
+  "provenance": {
+    "source": "https://www.edikka.com/docbd/data/architecture-seo-decision-matrix-v1.1/",
+    "accessed_at": "2026-10-01T10:05:33.315Z",
+    "manifest_sha256": "3afe74241a82eb6eae85d2b95b557423c486e514bf365660a22d5d2e46d0927c",
+    "files_verified": 11,
+    "data_version": "1.1.0",
+    "observed_at": "2026-09-09",
+    "graph_sha256": "388b000e10245938560fdad4cafac61c9f99edd62f1e7a924aaadc4d330da4f9",
+    "inventory_source_sha256": "d9e4913d55cc2e4d84d09c830d1ea2318918f8f4d99d0b26b1a68a4455443ff7"
+  },
+  "statistics": {
+    "sources": 188,
+    "urls": 430,
+    "destination_only": 242,
+    "unique_relations": 6729,
+    "self_links": 188
+  },
+  "initial": {
+    "version": "1.1.0",
+    "from": "https://www.edikka.com/",
+    "to": "https://www.edikka.com/insights/seo/architecture-seo-site",
+    "operations": []
+  },
+  "records": {
+    "https://www.edikka.com/": {
+      "url": "https://www.edikka.com/",
+      "source_documented": true,
+      "label": "Agence web, SEO & visibilité IA",
+      "label_basis": "observed_h1",
+      "kind": "url",
+      "metadata": {
+        "url": "https://www.edikka.com/",
+        "observed_at": "2026-09-09",
+        "inventory_source": "audit/reference-france-2026-09-09/crawl.json",
+        "status": "200",
+        "canonical": "https://www.edikka.com/",
+        "lang": "fr",
+        "h1": "Agence web, SEO & visibilité IA",
+        "editorial_role": "entry",
+        "role_basis": "Public site entry point",
+        "robots": "index, follow",
+        "verification_status": "archived_observation",
+        "limitations": "Post-15-August archive; not a technical before-state for that intervention.",
+        "row": 2
+      }
+    },
+    "https://www.edikka.com/accessibilite": {
+      "url": "https://www.edikka.com/accessibilite",
+      "source_documented": true,
+      "label": "accessibilite",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/agence": {
+      "url": "https://www.edikka.com/agence",
+      "source_documented": true,
+      "label": "agence",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/agence/bertrand-morel": {
+      "url": "https://www.edikka.com/agence/bertrand-morel",
+      "source_documented": true,
+      "label": "bertrand morel",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/audit-accessibilite-numerique": {
+      "url": "https://www.edikka.com/audit-accessibilite-numerique",
+      "source_documented": true,
+      "label": "audit accessibilite numerique",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/audit-accessibilite-numerique.md": {
+      "url": "https://www.edikka.com/audit-accessibilite-numerique.md",
+      "source_documented": false,
+      "label": "audit accessibilite numerique.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/audit/accessibilite": {
+      "url": "https://www.edikka.com/audit/accessibilite",
+      "source_documented": true,
+      "label": "accessibilite",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/audit/accessibility-foundation-self-assessment-2026-08-25/browser-observations.json": {
+      "url": "https://www.edikka.com/audit/accessibility-foundation-self-assessment-2026-08-25/browser-observations.json",
+      "source_documented": false,
+      "label": "browser observations.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/audit/preuves-accessibilite/addendum-rgaa-4-1-2026-08-26.json": {
+      "url": "https://www.edikka.com/audit/preuves-accessibilite/addendum-rgaa-4-1-2026-08-26.json",
+      "source_documented": false,
+      "label": "addendum rgaa 4 1 2026 08 26.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/audit/preuves-accessibilite/addendum-rgaa-4-1-2026-08-26.md": {
+      "url": "https://www.edikka.com/audit/preuves-accessibilite/addendum-rgaa-4-1-2026-08-26.md",
+      "source_documented": false,
+      "label": "addendum rgaa 4 1 2026 08 26.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/audit/preuves-accessibilite/auto-evaluation-socle-2026-08-26/captures/contact-mobile-390x844.png": {
+      "url": "https://www.edikka.com/audit/preuves-accessibilite/auto-evaluation-socle-2026-08-26/captures/contact-mobile-390x844.png",
+      "source_documented": false,
+      "label": "contact mobile 390x844.png",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/audit/preuves-accessibilite/auto-evaluation-socle-2026-08-26/captures/rapport-mobile-320x800.png": {
+      "url": "https://www.edikka.com/audit/preuves-accessibilite/auto-evaluation-socle-2026-08-26/captures/rapport-mobile-320x800.png",
+      "source_documented": false,
+      "label": "rapport mobile 320x800.png",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/audit/preuves-accessibilite/auto-evaluation-socle-2026-08-26/captures/rapport-paysage-844x390.png": {
+      "url": "https://www.edikka.com/audit/preuves-accessibilite/auto-evaluation-socle-2026-08-26/captures/rapport-paysage-844x390.png",
+      "source_documented": false,
+      "label": "rapport paysage 844x390.png",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/audit/preuves-accessibilite/auto-evaluation-socle-2026-08-26/index-preuves.json": {
+      "url": "https://www.edikka.com/audit/preuves-accessibilite/auto-evaluation-socle-2026-08-26/index-preuves.json",
+      "source_documented": false,
+      "label": "index preuves.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/audit/preuves-accessibilite/auto-evaluation-socle-2026-08-26/lighthouse/contact.json": {
+      "url": "https://www.edikka.com/audit/preuves-accessibilite/auto-evaluation-socle-2026-08-26/lighthouse/contact.json",
+      "source_documented": false,
+      "label": "contact.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/audit/preuves-accessibilite/auto-evaluation-socle-2026-08-26/lighthouse/expertise.json": {
+      "url": "https://www.edikka.com/audit/preuves-accessibilite/auto-evaluation-socle-2026-08-26/lighthouse/expertise.json",
+      "source_documented": false,
+      "label": "expertise.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/audit/preuves-accessibilite/auto-evaluation-socle-2026-08-26/lighthouse/home.json": {
+      "url": "https://www.edikka.com/audit/preuves-accessibilite/auto-evaluation-socle-2026-08-26/lighthouse/home.json",
+      "source_documented": false,
+      "label": "home.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/audit/preuves-accessibilite/auto-evaluation-socle-2026-08-26/lighthouse/insight.json": {
+      "url": "https://www.edikka.com/audit/preuves-accessibilite/auto-evaluation-socle-2026-08-26/lighthouse/insight.json",
+      "source_documented": false,
+      "label": "insight.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/audit/preuves-accessibilite/auto-evaluation-socle-2026-08-26/lighthouse/offer.json": {
+      "url": "https://www.edikka.com/audit/preuves-accessibilite/auto-evaluation-socle-2026-08-26/lighthouse/offer.json",
+      "source_documented": false,
+      "label": "offer.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/audit/preuves-accessibilite/auto-evaluation-socle-2026-08-26/lighthouse/project.json": {
+      "url": "https://www.edikka.com/audit/preuves-accessibilite/auto-evaluation-socle-2026-08-26/lighthouse/project.json",
+      "source_documented": false,
+      "label": "project.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/audit/preuves-accessibilite/auto-evaluation-socle-2026-08-26/lighthouse/report.json": {
+      "url": "https://www.edikka.com/audit/preuves-accessibilite/auto-evaluation-socle-2026-08-26/lighthouse/report.json",
+      "source_documented": false,
+      "label": "report.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/audit/preuves-accessibilite/auto-evaluation-socle-2026-08-26/lighthouse/statement.json": {
+      "url": "https://www.edikka.com/audit/preuves-accessibilite/auto-evaluation-socle-2026-08-26/lighthouse/statement.json",
+      "source_documented": false,
+      "label": "statement.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/audit/preuves-accessibilite/auto-evaluation-socle-accessibilite-edikka-2026-08-26-manifest.json": {
+      "url": "https://www.edikka.com/audit/preuves-accessibilite/auto-evaluation-socle-accessibilite-edikka-2026-08-26-manifest.json",
+      "source_documented": false,
+      "label": "auto evaluation socle accessibilite edikka 2026 08 26 manifest.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/audit/preuves-accessibilite/auto-evaluation-socle-accessibilite-edikka-2026-08-26.md": {
+      "url": "https://www.edikka.com/audit/preuves-accessibilite/auto-evaluation-socle-accessibilite-edikka-2026-08-26.md",
+      "source_documented": false,
+      "label": "auto evaluation socle accessibilite edikka 2026 08 26.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/audit/preuves-accessibilite/auto-evaluation-socle-accessibilite-edikka-2026-08-26.sha256": {
+      "url": "https://www.edikka.com/audit/preuves-accessibilite/auto-evaluation-socle-accessibilite-edikka-2026-08-26.sha256",
+      "source_documented": false,
+      "label": "auto evaluation socle accessibilite edikka 2026 08 26.sha256",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/audit/preuves-accessibilite/changelog-auto-evaluation-socle-accessibilite-edikka.md": {
+      "url": "https://www.edikka.com/audit/preuves-accessibilite/changelog-auto-evaluation-socle-accessibilite-edikka.md",
+      "source_documented": false,
+      "label": "changelog auto evaluation socle accessibilite edikka.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/audit/preuves-accessibilite/cloture-declaration-2026-06-23.json": {
+      "url": "https://www.edikka.com/audit/preuves-accessibilite/cloture-declaration-2026-06-23.json",
+      "source_documented": false,
+      "label": "cloture declaration 2026 06 23.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/audit/preuves-accessibilite/cloture-declaration-2026-06-23.md": {
+      "url": "https://www.edikka.com/audit/preuves-accessibilite/cloture-declaration-2026-06-23.md",
+      "source_documented": false,
+      "label": "cloture declaration 2026 06 23.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/audit/preuves-accessibilite/controles-pro-2026-06-22.json": {
+      "url": "https://www.edikka.com/audit/preuves-accessibilite/controles-pro-2026-06-22.json",
+      "source_documented": false,
+      "label": "controles pro 2026 06 22.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/audit/preuves-accessibilite/grille-rgaa-ciblee-2026-06-22.md": {
+      "url": "https://www.edikka.com/audit/preuves-accessibilite/grille-rgaa-ciblee-2026-06-22.md",
+      "source_documented": false,
+      "label": "grille rgaa ciblee 2026 06 22.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/audit/preuves-accessibilite/journal-auto-evaluation-socle-accessibilite-edikka-2026-08-26.md": {
+      "url": "https://www.edikka.com/audit/preuves-accessibilite/journal-auto-evaluation-socle-accessibilite-edikka-2026-08-26.md",
+      "source_documented": false,
+      "label": "journal auto evaluation socle accessibilite edikka 2026 08 26.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/audit/preuves-accessibilite/journal-tests-accessibilite-2026-06-22.md": {
+      "url": "https://www.edikka.com/audit/preuves-accessibilite/journal-tests-accessibilite-2026-06-22.md",
+      "source_documented": false,
+      "label": "journal tests accessibilite 2026 06 22.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/audit/preuves-accessibilite/resultats-2026-06-22.json": {
+      "url": "https://www.edikka.com/audit/preuves-accessibilite/resultats-2026-06-22.json",
+      "source_documented": false,
+      "label": "resultats 2026 06 22.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/audit/preuves-accessibilite/rgaa-complet-edikka-2026-06-25.json": {
+      "url": "https://www.edikka.com/audit/preuves-accessibilite/rgaa-complet-edikka-2026-06-25.json",
+      "source_documented": false,
+      "label": "rgaa complet edikka 2026 06 25.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/audit/preuves-accessibilite/rgaa-complet-edikka-2026-06-25.md": {
+      "url": "https://www.edikka.com/audit/preuves-accessibilite/rgaa-complet-edikka-2026-06-25.md",
+      "source_documented": false,
+      "label": "rgaa complet edikka 2026 06 25.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/audit/preuves-accessibilite/rgaa-edikka-2026.md": {
+      "url": "https://www.edikka.com/audit/preuves-accessibilite/rgaa-edikka-2026.md",
+      "source_documented": false,
+      "label": "rgaa edikka 2026.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/bibliotheque": {
+      "url": "https://www.edikka.com/bibliotheque",
+      "source_documented": true,
+      "label": "bibliotheque",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/charte-edikka.md": {
+      "url": "https://www.edikka.com/charte-edikka.md",
+      "source_documented": false,
+      "label": "charte edikka.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/collaborations": {
+      "url": "https://www.edikka.com/collaborations",
+      "source_documented": true,
+      "label": "collaborations",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/contact": {
+      "url": "https://www.edikka.com/contact",
+      "source_documented": true,
+      "label": "contact",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/contact?projet=audit-accessibilite": {
+      "url": "https://www.edikka.com/contact?projet=audit-accessibilite",
+      "source_documented": false,
+      "label": "contact",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/contact?projet=automatisation-seo-ia": {
+      "url": "https://www.edikka.com/contact?projet=automatisation-seo-ia",
+      "source_documented": false,
+      "label": "contact",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/contact?projet=design-conversion&source=insight": {
+      "url": "https://www.edikka.com/contact?projet=design-conversion&source=insight",
+      "source_documented": false,
+      "label": "contact",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/contact?projet=faq-assistee-ia": {
+      "url": "https://www.edikka.com/contact?projet=faq-assistee-ia",
+      "source_documented": false,
+      "label": "contact",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/contact?projet=integration-ia-fiable": {
+      "url": "https://www.edikka.com/contact?projet=integration-ia-fiable",
+      "source_documented": false,
+      "label": "contact",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/contact?projet=landing-page": {
+      "url": "https://www.edikka.com/contact?projet=landing-page",
+      "source_documented": false,
+      "label": "contact",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/contact?projet=refonte": {
+      "url": "https://www.edikka.com/contact?projet=refonte",
+      "source_documented": false,
+      "label": "contact",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/contact?projet=refonte-prix": {
+      "url": "https://www.edikka.com/contact?projet=refonte-prix",
+      "source_documented": false,
+      "label": "contact",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/contact?projet=refonte-site-internet": {
+      "url": "https://www.edikka.com/contact?projet=refonte-site-internet",
+      "source_documented": false,
+      "label": "contact",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/contact?projet=ux-writing": {
+      "url": "https://www.edikka.com/contact?projet=ux-writing",
+      "source_documented": false,
+      "label": "contact",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/contact?source=cro": {
+      "url": "https://www.edikka.com/contact?source=cro",
+      "source_documented": false,
+      "label": "contact",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/contact?source=tunnel-b2b": {
+      "url": "https://www.edikka.com/contact?source=tunnel-b2b",
+      "source_documented": false,
+      "label": "contact",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/contact?subject=Erratum%20registre%20GEO": {
+      "url": "https://www.edikka.com/contact?subject=Erratum%20registre%20GEO",
+      "source_documented": false,
+      "label": "contact",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/dist/app.1100.css": {
+      "url": "https://www.edikka.com/dist/app.1100.css",
+      "source_documented": false,
+      "label": "app.1100.css",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/article/audio/52-seo-technique-fondations-short-transcript.txt": {
+      "url": "https://www.edikka.com/docbd/article/audio/52-seo-technique-fondations-short-transcript.txt",
+      "source_documented": false,
+      "label": "52 seo technique fondations short transcript.txt",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/article/audio/53-technical-seo-foundations-short-transcript.txt": {
+      "url": "https://www.edikka.com/docbd/article/audio/53-technical-seo-foundations-short-transcript.txt",
+      "source_documented": false,
+      "label": "53 technical seo foundations short transcript.txt",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/article/press/geo-claim-register-2026-en-social.png": {
+      "url": "https://www.edikka.com/docbd/article/press/geo-claim-register-2026-en-social.png",
+      "source_documented": false,
+      "label": "geo claim register 2026 en social.png",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/article/press/geo-claim-register-2026-en-social.svg": {
+      "url": "https://www.edikka.com/docbd/article/press/geo-claim-register-2026-en-social.svg",
+      "source_documented": false,
+      "label": "geo claim register 2026 en social.svg",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/article/press/geo-claim-register-2026-en-square.png": {
+      "url": "https://www.edikka.com/docbd/article/press/geo-claim-register-2026-en-square.png",
+      "source_documented": false,
+      "label": "geo claim register 2026 en square.png",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/article/press/geo-claim-register-2026-en-square.svg": {
+      "url": "https://www.edikka.com/docbd/article/press/geo-claim-register-2026-en-square.svg",
+      "source_documented": false,
+      "label": "geo claim register 2026 en square.svg",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/article/press/geo-claim-register-2026-fr-social.png": {
+      "url": "https://www.edikka.com/docbd/article/press/geo-claim-register-2026-fr-social.png",
+      "source_documented": false,
+      "label": "geo claim register 2026 fr social.png",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/article/press/geo-claim-register-2026-fr-social.svg": {
+      "url": "https://www.edikka.com/docbd/article/press/geo-claim-register-2026-fr-social.svg",
+      "source_documented": false,
+      "label": "geo claim register 2026 fr social.svg",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/article/press/geo-claim-register-2026-fr-square.png": {
+      "url": "https://www.edikka.com/docbd/article/press/geo-claim-register-2026-fr-square.png",
+      "source_documented": false,
+      "label": "geo claim register 2026 fr square.png",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/article/press/geo-claim-register-2026-fr-square.svg": {
+      "url": "https://www.edikka.com/docbd/article/press/geo-claim-register-2026-fr-square.svg",
+      "source_documented": false,
+      "label": "geo claim register 2026 fr square.svg",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/article/press/geo-evidence-france-2026-en-social.png": {
+      "url": "https://www.edikka.com/docbd/article/press/geo-evidence-france-2026-en-social.png",
+      "source_documented": false,
+      "label": "geo evidence france 2026 en social.png",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/article/press/geo-evidence-france-2026-en-social.svg": {
+      "url": "https://www.edikka.com/docbd/article/press/geo-evidence-france-2026-en-social.svg",
+      "source_documented": false,
+      "label": "geo evidence france 2026 en social.svg",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/article/press/geo-evidence-france-2026-en-square.png": {
+      "url": "https://www.edikka.com/docbd/article/press/geo-evidence-france-2026-en-square.png",
+      "source_documented": false,
+      "label": "geo evidence france 2026 en square.png",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/article/press/geo-evidence-france-2026-en-square.svg": {
+      "url": "https://www.edikka.com/docbd/article/press/geo-evidence-france-2026-en-square.svg",
+      "source_documented": false,
+      "label": "geo evidence france 2026 en square.svg",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/article/press/mia-fr-j0-2026-en-social.png": {
+      "url": "https://www.edikka.com/docbd/article/press/mia-fr-j0-2026-en-social.png",
+      "source_documented": false,
+      "label": "mia fr j0 2026 en social.png",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/article/press/mia-fr-j0-2026-en-social.svg": {
+      "url": "https://www.edikka.com/docbd/article/press/mia-fr-j0-2026-en-social.svg",
+      "source_documented": false,
+      "label": "mia fr j0 2026 en social.svg",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/article/press/mia-fr-j0-2026-en-square.png": {
+      "url": "https://www.edikka.com/docbd/article/press/mia-fr-j0-2026-en-square.png",
+      "source_documented": false,
+      "label": "mia fr j0 2026 en square.png",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/article/press/mia-fr-j0-2026-en-square.svg": {
+      "url": "https://www.edikka.com/docbd/article/press/mia-fr-j0-2026-en-square.svg",
+      "source_documented": false,
+      "label": "mia fr j0 2026 en square.svg",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/article/press/mia-fr-j0-2026-fr-social.png": {
+      "url": "https://www.edikka.com/docbd/article/press/mia-fr-j0-2026-fr-social.png",
+      "source_documented": false,
+      "label": "mia fr j0 2026 fr social.png",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/article/press/mia-fr-j0-2026-fr-social.svg": {
+      "url": "https://www.edikka.com/docbd/article/press/mia-fr-j0-2026-fr-social.svg",
+      "source_documented": false,
+      "label": "mia fr j0 2026 fr social.svg",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/article/press/mia-fr-j0-2026-fr-square.png": {
+      "url": "https://www.edikka.com/docbd/article/press/mia-fr-j0-2026-fr-square.png",
+      "source_documented": false,
+      "label": "mia fr j0 2026 fr square.png",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/article/press/mia-fr-j0-2026-fr-square.svg": {
+      "url": "https://www.edikka.com/docbd/article/press/mia-fr-j0-2026-fr-square.svg",
+      "source_documented": false,
+      "label": "mia fr j0 2026 fr square.svg",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/article/social/barometre-agences-geo-france-2026.jpg": {
+      "url": "https://www.edikka.com/docbd/article/social/barometre-agences-geo-france-2026.jpg",
+      "source_documented": false,
+      "label": "barometre agences geo france 2026.jpg",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/article/xxl/barometre-agences-geo-france-2026.webp": {
+      "url": "https://www.edikka.com/docbd/article/xxl/barometre-agences-geo-france-2026.webp",
+      "source_documented": false,
+      "label": "barometre agences geo france 2026.webp",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/article/xxl/indice-preparation-geo-edikka-visibilite-ia-2026.jpg": {
+      "url": "https://www.edikka.com/docbd/article/xxl/indice-preparation-geo-edikka-visibilite-ia-2026.jpg",
+      "source_documented": false,
+      "label": "indice preparation geo edikka visibilite ia 2026.jpg",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/article/xxl/indice-preparation-geo-edikka-visibilite-ia-2026.webp": {
+      "url": "https://www.edikka.com/docbd/article/xxl/indice-preparation-geo-edikka-visibilite-ia-2026.webp",
+      "source_documented": false,
+      "label": "indice preparation geo edikka visibilite ia 2026.webp",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/CHANGELOG-edikka-geo-claim-register.md": {
+      "url": "https://www.edikka.com/docbd/data/CHANGELOG-edikka-geo-claim-register.md",
+      "source_documented": false,
+      "label": "CHANGELOG edikka geo claim register.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/CHANGELOG-registre-affirmations-geo-edikka.md": {
+      "url": "https://www.edikka.com/docbd/data/CHANGELOG-registre-affirmations-geo-edikka.md",
+      "source_documented": false,
+      "label": "CHANGELOG registre affirmations geo edikka.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/CHANGELOG-registre-decision-audit-digital-edikka.md": {
+      "url": "https://www.edikka.com/docbd/data/CHANGELOG-registre-decision-audit-digital-edikka.md",
+      "source_documented": false,
+      "label": "CHANGELOG registre decision audit digital edikka.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/CITATION-images-web-edikka-v1-1.cff": {
+      "url": "https://www.edikka.com/docbd/data/CITATION-images-web-edikka-v1-1.cff",
+      "source_documented": false,
+      "label": "CITATION images web edikka v1 1.cff",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/anatomie-landing-page-edikka-v1.svg": {
+      "url": "https://www.edikka.com/docbd/data/anatomie-landing-page-edikka-v1.svg",
+      "source_documented": false,
+      "label": "anatomie landing page edikka v1.svg",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/application-conversion-uxui-edikka-v1-manifest.json": {
+      "url": "https://www.edikka.com/docbd/data/application-conversion-uxui-edikka-v1-manifest.json",
+      "source_documented": false,
+      "label": "application conversion uxui edikka v1 manifest.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/application-conversion-uxui-edikka-v1.json": {
+      "url": "https://www.edikka.com/docbd/data/application-conversion-uxui-edikka-v1.json",
+      "source_documented": false,
+      "label": "application conversion uxui edikka v1.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/application-conversion-uxui-edikka-v1.xlsx": {
+      "url": "https://www.edikka.com/docbd/data/application-conversion-uxui-edikka-v1.xlsx",
+      "source_documented": false,
+      "label": "application conversion uxui edikka v1.xlsx",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/audit-digital-edikka-public-crawl-2026-09-05.json": {
+      "url": "https://www.edikka.com/docbd/data/audit-digital-edikka-public-crawl-2026-09-05.json",
+      "source_documented": false,
+      "label": "audit digital edikka public crawl 2026 09 05.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/auto-audit-3-parcours-edikka-landing-page-v1.csv": {
+      "url": "https://www.edikka.com/docbd/data/auto-audit-3-parcours-edikka-landing-page-v1.csv",
+      "source_documented": false,
+      "label": "auto audit 3 parcours edikka landing page v1.csv",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/auto-audit-3-parcours-edikka-landing-page-v1.json": {
+      "url": "https://www.edikka.com/docbd/data/auto-audit-3-parcours-edikka-landing-page-v1.json",
+      "source_documented": false,
+      "label": "auto audit 3 parcours edikka landing page v1.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/auto-audit-images-web-edikka-2026-08-22.json": {
+      "url": "https://www.edikka.com/docbd/data/auto-audit-images-web-edikka-2026-08-22.json",
+      "source_documented": false,
+      "label": "auto audit images web edikka 2026 08 22.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/auto-audit-seo-technique-edikka-2026-08-22.json": {
+      "url": "https://www.edikka.com/docbd/data/auto-audit-seo-technique-edikka-2026-08-22.json",
+      "source_documented": false,
+      "label": "auto audit seo technique edikka 2026 08 22.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/auto-evaluation-socle-accessibilite-edikka-2026-08-26.json": {
+      "url": "https://www.edikka.com/docbd/data/auto-evaluation-socle-accessibilite-edikka-2026-08-26.json",
+      "source_documented": false,
+      "label": "auto evaluation socle accessibilite edikka 2026 08 26.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/auto-evaluation-socle-accessibilite-edikka-2026-08-26.xlsx": {
+      "url": "https://www.edikka.com/docbd/data/auto-evaluation-socle-accessibilite-edikka-2026-08-26.xlsx",
+      "source_documented": false,
+      "label": "auto evaluation socle accessibilite edikka 2026 08 26.xlsx",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/automatisation-seo-ia-recommandations.schema.json": {
+      "url": "https://www.edikka.com/docbd/data/automatisation-seo-ia-recommandations.schema.json",
+      "source_documented": false,
+      "label": "automatisation seo ia recommandations.schema.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/b2b-website-redesign-brief.docx": {
+      "url": "https://www.edikka.com/docbd/data/b2b-website-redesign-brief.docx",
+      "source_documented": false,
+      "label": "b2b website redesign brief.docx",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/barometre-agences-geo-france-changelog.md": {
+      "url": "https://www.edikka.com/docbd/data/barometre-agences-geo-france-changelog.md",
+      "source_documented": false,
+      "label": "barometre agences geo france changelog.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/barometre-agences-geo-france-manifest.json": {
+      "url": "https://www.edikka.com/docbd/data/barometre-agences-geo-france-manifest.json",
+      "source_documented": false,
+      "label": "barometre agences geo france manifest.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/barometre-agences-geo-france-methodologie-v1.0.2.md": {
+      "url": "https://www.edikka.com/docbd/data/barometre-agences-geo-france-methodologie-v1.0.2.md",
+      "source_documented": false,
+      "label": "barometre agences geo france methodologie v1.0.2.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/barometre-agences-geo-france-vague-1.csv": {
+      "url": "https://www.edikka.com/docbd/data/barometre-agences-geo-france-vague-1.csv",
+      "source_documented": false,
+      "label": "barometre agences geo france vague 1.csv",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/barometre-agences-geo-france-vague-1.json": {
+      "url": "https://www.edikka.com/docbd/data/barometre-agences-geo-france-vague-1.json",
+      "source_documented": false,
+      "label": "barometre agences geo france vague 1.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/cahier-des-charges-refonte-site-internet-b2b.docx": {
+      "url": "https://www.edikka.com/docbd/data/cahier-des-charges-refonte-site-internet-b2b.docx",
+      "source_documented": false,
+      "label": "cahier des charges refonte site internet b2b.docx",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/collect-image-evidence-edikka-v1-1.mjs": {
+      "url": "https://www.edikka.com/docbd/data/collect-image-evidence-edikka-v1-1.mjs",
+      "source_documented": false,
+      "label": "collect image evidence edikka v1 1.mjs",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/collecteur-audit-digital-edikka-v1.txt": {
+      "url": "https://www.edikka.com/docbd/data/collecteur-audit-digital-edikka-v1.txt",
+      "source_documented": false,
+      "label": "collecteur audit digital edikka v1.txt",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/cwv-evidence-lab-v1-2.js": {
+      "url": "https://www.edikka.com/docbd/data/cwv-evidence-lab-v1-2.js",
+      "source_documented": false,
+      "label": "cwv evidence lab v1 2.js",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/edikka-geo-claim-register-v1-en-manifest.json": {
+      "url": "https://www.edikka.com/docbd/data/edikka-geo-claim-register-v1-en-manifest.json",
+      "source_documented": false,
+      "label": "edikka geo claim register v1 en manifest.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/edikka-geo-claim-register-v1-en.csv": {
+      "url": "https://www.edikka.com/docbd/data/edikka-geo-claim-register-v1-en.csv",
+      "source_documented": false,
+      "label": "edikka geo claim register v1 en.csv",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/edikka-geo-claim-register-v1-en.json": {
+      "url": "https://www.edikka.com/docbd/data/edikka-geo-claim-register-v1-en.json",
+      "source_documented": false,
+      "label": "edikka geo claim register v1 en.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/edikka-geo-claim-register-v1-en.sha256": {
+      "url": "https://www.edikka.com/docbd/data/edikka-geo-claim-register-v1-en.sha256",
+      "source_documented": false,
+      "label": "edikka geo claim register v1 en.sha256",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/edikka-geo-claim-register-v1.1.1-CITATION.cff": {
+      "url": "https://www.edikka.com/docbd/data/edikka-geo-claim-register-v1.1.1-CITATION.cff",
+      "source_documented": false,
+      "label": "edikka geo claim register v1.1.1 CITATION.cff",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/edikka-geo-claim-register-v1.1.1-LICENSE.md": {
+      "url": "https://www.edikka.com/docbd/data/edikka-geo-claim-register-v1.1.1-LICENSE.md",
+      "source_documented": false,
+      "label": "edikka geo claim register v1.1.1 LICENSE.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/edikka-geo-claim-register-v1.1.1-METHODOLOGY.md": {
+      "url": "https://www.edikka.com/docbd/data/edikka-geo-claim-register-v1.1.1-METHODOLOGY.md",
+      "source_documented": false,
+      "label": "edikka geo claim register v1.1.1 METHODOLOGY.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/edikka-geo-claim-register-v1.1.1-SHA256SUMS": {
+      "url": "https://www.edikka.com/docbd/data/edikka-geo-claim-register-v1.1.1-SHA256SUMS",
+      "source_documented": false,
+      "label": "edikka geo claim register v1.1.1 SHA256SUMS",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/edikka-geo-claim-register-v1.1.1-manifest.json": {
+      "url": "https://www.edikka.com/docbd/data/edikka-geo-claim-register-v1.1.1-manifest.json",
+      "source_documented": false,
+      "label": "edikka geo claim register v1.1.1 manifest.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/edikka-landing-page-anatomy-v1.svg": {
+      "url": "https://www.edikka.com/docbd/data/edikka-landing-page-anatomy-v1.svg",
+      "source_documented": false,
+      "label": "edikka landing page anatomy v1.svg",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/edikka-landing-page-audit-grid-v1.csv": {
+      "url": "https://www.edikka.com/docbd/data/edikka-landing-page-audit-grid-v1.csv",
+      "source_documented": false,
+      "label": "edikka landing page audit grid v1.csv",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/edikka-landing-page-audit-grid-v1.json": {
+      "url": "https://www.edikka.com/docbd/data/edikka-landing-page-audit-grid-v1.json",
+      "source_documented": false,
+      "label": "edikka landing page audit grid v1.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/edikka-open-instrument-library-v1.0.0.zip": {
+      "url": "https://www.edikka.com/docbd/data/edikka-open-instrument-library-v1.0.0.zip",
+      "source_documented": false,
+      "label": "edikka open instrument library v1.0.0.zip",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/edikka-three-journey-landing-page-self-audit-v1.csv": {
+      "url": "https://www.edikka.com/docbd/data/edikka-three-journey-landing-page-self-audit-v1.csv",
+      "source_documented": false,
+      "label": "edikka three journey landing page self audit v1.csv",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/edikka-three-journey-landing-page-self-audit-v1.json": {
+      "url": "https://www.edikka.com/docbd/data/edikka-three-journey-landing-page-self-audit-v1.json",
+      "source_documented": false,
+      "label": "edikka three journey landing page self audit v1.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/estimateur-budget-refonte-site-internet.xlsx": {
+      "url": "https://www.edikka.com/docbd/data/estimateur-budget-refonte-site-internet.xlsx",
+      "source_documented": false,
+      "label": "estimateur budget refonte site internet.xlsx",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/grille-audit-images-web-edikka-v1-1.json": {
+      "url": "https://www.edikka.com/docbd/data/grille-audit-images-web-edikka-v1-1.json",
+      "source_documented": false,
+      "label": "grille audit images web edikka v1 1.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/grille-audit-images-web-edikka-v1-1.xlsx": {
+      "url": "https://www.edikka.com/docbd/data/grille-audit-images-web-edikka-v1-1.xlsx",
+      "source_documented": false,
+      "label": "grille audit images web edikka v1 1.xlsx",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/grille-audit-landing-page-edikka-v1.csv": {
+      "url": "https://www.edikka.com/docbd/data/grille-audit-landing-page-edikka-v1.csv",
+      "source_documented": false,
+      "label": "grille audit landing page edikka v1.csv",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/grille-audit-landing-page-edikka-v1.json": {
+      "url": "https://www.edikka.com/docbd/data/grille-audit-landing-page-edikka-v1.json",
+      "source_documented": false,
+      "label": "grille audit landing page edikka v1.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/grille-audit-seo-technique-edikka-v1-1.json": {
+      "url": "https://www.edikka.com/docbd/data/grille-audit-seo-technique-edikka-v1-1.json",
+      "source_documented": false,
+      "label": "grille audit seo technique edikka v1 1.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/grille-audit-seo-technique-edikka-v1-1.xlsx": {
+      "url": "https://www.edikka.com/docbd/data/grille-audit-seo-technique-edikka-v1-1.xlsx",
+      "source_documented": false,
+      "label": "grille audit seo technique edikka v1 1.xlsx",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/ia-fiable-jeu-evaluation-12-cas.jsonl": {
+      "url": "https://www.edikka.com/docbd/data/ia-fiable-jeu-evaluation-12-cas.jsonl",
+      "source_documented": false,
+      "label": "ia fiable jeu evaluation 12 cas.jsonl",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/landing-page-audit-grid-v1.schema.json": {
+      "url": "https://www.edikka.com/docbd/data/landing-page-audit-grid-v1.schema.json",
+      "source_documented": false,
+      "label": "landing page audit grid v1.schema.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/landing-page-grid-wave-1-adjudications-template.csv": {
+      "url": "https://www.edikka.com/docbd/data/landing-page-grid-wave-1-adjudications-template.csv",
+      "source_documented": false,
+      "label": "landing page grid wave 1 adjudications template.csv",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/landing-page-grid-wave-1-preregistration.json": {
+      "url": "https://www.edikka.com/docbd/data/landing-page-grid-wave-1-preregistration.json",
+      "source_documented": false,
+      "label": "landing page grid wave 1 preregistration.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/landing-page-grid-wave-1-ratings-template.csv": {
+      "url": "https://www.edikka.com/docbd/data/landing-page-grid-wave-1-ratings-template.csv",
+      "source_documented": false,
+      "label": "landing page grid wave 1 ratings template.csv",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/matrice-faq-assistee-ia-questions-clients.xlsx": {
+      "url": "https://www.edikka.com/docbd/data/matrice-faq-assistee-ia-questions-clients.xlsx",
+      "source_documented": false,
+      "label": "matrice faq assistee ia questions clients.xlsx",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/matrice-migration-seo-refonte-site-internet.csv": {
+      "url": "https://www.edikka.com/docbd/data/matrice-migration-seo-refonte-site-internet.csv",
+      "source_documented": false,
+      "label": "matrice migration seo refonte site internet.csv",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/matrice-migration-seo-refonte-site-internet.xlsx": {
+      "url": "https://www.edikka.com/docbd/data/matrice-migration-seo-refonte-site-internet.xlsx",
+      "source_documented": false,
+      "label": "matrice migration seo refonte site internet.xlsx",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/matrice-recette-site-web-avant-mise-en-ligne.xlsx": {
+      "url": "https://www.edikka.com/docbd/data/matrice-recette-site-web-avant-mise-en-ligne.xlsx",
+      "source_documented": false,
+      "label": "matrice recette site web avant mise en ligne.xlsx",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/matrice-responsabilites-ux-ui-edikka-v1-manifest.json": {
+      "url": "https://www.edikka.com/docbd/data/matrice-responsabilites-ux-ui-edikka-v1-manifest.json",
+      "source_documented": false,
+      "label": "matrice responsabilites ux ui edikka v1 manifest.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/matrice-responsabilites-ux-ui-edikka-v1.json": {
+      "url": "https://www.edikka.com/docbd/data/matrice-responsabilites-ux-ui-edikka-v1.json",
+      "source_documented": false,
+      "label": "matrice responsabilites ux ui edikka v1.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/matrice-responsabilites-ux-ui-edikka-v1.xlsx": {
+      "url": "https://www.edikka.com/docbd/data/matrice-responsabilites-ux-ui-edikka-v1.xlsx",
+      "source_documented": false,
+      "label": "matrice responsabilites ux ui edikka v1.xlsx",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/media-kit-geo-claim-register-2026-key-figures.csv": {
+      "url": "https://www.edikka.com/docbd/data/media-kit-geo-claim-register-2026-key-figures.csv",
+      "source_documented": false,
+      "label": "media kit geo claim register 2026 key figures.csv",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/media-kit-geo-evidence-france-2026-key-figures.csv": {
+      "url": "https://www.edikka.com/docbd/data/media-kit-geo-evidence-france-2026-key-figures.csv",
+      "source_documented": false,
+      "label": "media kit geo evidence france 2026 key figures.csv",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/media-kit-mia-fr-j0-2026-key-figures.csv": {
+      "url": "https://www.edikka.com/docbd/data/media-kit-mia-fr-j0-2026-key-figures.csv",
+      "source_documented": false,
+      "label": "media kit mia fr j0 2026 key figures.csv",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/observatoire-accessibilite-web-france-vague-01.csv": {
+      "url": "https://www.edikka.com/docbd/data/observatoire-accessibilite-web-france-vague-01.csv",
+      "source_documented": false,
+      "label": "observatoire accessibilite web france vague 01.csv",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/observatoire-accessibilite-web-france-vague-01.json": {
+      "url": "https://www.edikka.com/docbd/data/observatoire-accessibilite-web-france-vague-01.json",
+      "source_documented": false,
+      "label": "observatoire accessibilite web france vague 01.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/point-zero-seo-geo-france-2026-08-27-manifest.json": {
+      "url": "https://www.edikka.com/docbd/data/point-zero-seo-geo-france-2026-08-27-manifest.json",
+      "source_documented": false,
+      "label": "point zero seo geo france 2026 08 27 manifest.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/point-zero-seo-geo-france-corpus-20-requetes-v1.csv": {
+      "url": "https://www.edikka.com/docbd/data/point-zero-seo-geo-france-corpus-20-requetes-v1.csv",
+      "source_documented": false,
+      "label": "point zero seo geo france corpus 20 requetes v1.csv",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/point-zero-seo-geo-france-google-ai-mode-t0.csv": {
+      "url": "https://www.edikka.com/docbd/data/point-zero-seo-geo-france-google-ai-mode-t0.csv",
+      "source_documented": false,
+      "label": "point zero seo geo france google ai mode t0.csv",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/point-zero-seo-geo-france-google-fr-t0.csv": {
+      "url": "https://www.edikka.com/docbd/data/point-zero-seo-geo-france-google-fr-t0.csv",
+      "source_documented": false,
+      "label": "point zero seo geo france google fr t0.csv",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/point-zero-seo-geo-france-perplexity-sessions-t0.csv": {
+      "url": "https://www.edikka.com/docbd/data/point-zero-seo-geo-france-perplexity-sessions-t0.csv",
+      "source_documented": false,
+      "label": "point zero seo geo france perplexity sessions t0.csv",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/point-zero-seo-geo-france-perplexity-t0.csv": {
+      "url": "https://www.edikka.com/docbd/data/point-zero-seo-geo-france-perplexity-t0.csv",
+      "source_documented": false,
+      "label": "point zero seo geo france perplexity t0.csv",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/protocole-core-web-vitals-edikka-v1-2-manifest.json": {
+      "url": "https://www.edikka.com/docbd/data/protocole-core-web-vitals-edikka-v1-2-manifest.json",
+      "source_documented": false,
+      "label": "protocole core web vitals edikka v1 2 manifest.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/protocole-core-web-vitals-edikka-v1-2.json": {
+      "url": "https://www.edikka.com/docbd/data/protocole-core-web-vitals-edikka-v1-2.json",
+      "source_documented": false,
+      "label": "protocole core web vitals edikka v1 2.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/protocole-core-web-vitals-edikka-v1-2.xlsx": {
+      "url": "https://www.edikka.com/docbd/data/protocole-core-web-vitals-edikka-v1-2.xlsx",
+      "source_documented": false,
+      "label": "protocole core web vitals edikka v1 2.xlsx",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/protocole-mia-fr-v1-corpus.csv": {
+      "url": "https://www.edikka.com/docbd/data/protocole-mia-fr-v1-corpus.csv",
+      "source_documented": false,
+      "label": "protocole mia fr v1 corpus.csv",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/protocole-mia-fr-v1-manifest.json": {
+      "url": "https://www.edikka.com/docbd/data/protocole-mia-fr-v1-manifest.json",
+      "source_documented": false,
+      "label": "protocole mia fr v1 manifest.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/protocole-mia-fr-v1-observations.csv": {
+      "url": "https://www.edikka.com/docbd/data/protocole-mia-fr-v1-observations.csv",
+      "source_documented": false,
+      "label": "protocole mia fr v1 observations.csv",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/protocole-mia-fr-v1.sha256": {
+      "url": "https://www.edikka.com/docbd/data/protocole-mia-fr-v1.sha256",
+      "source_documented": false,
+      "label": "protocole mia fr v1.sha256",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/protocole-mia-fr-v1.xlsx": {
+      "url": "https://www.edikka.com/docbd/data/protocole-mia-fr-v1.xlsx",
+      "source_documented": false,
+      "label": "protocole mia fr v1.xlsx",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/protocole-ux-writing-edikka-v1-manifest.json": {
+      "url": "https://www.edikka.com/docbd/data/protocole-ux-writing-edikka-v1-manifest.json",
+      "source_documented": false,
+      "label": "protocole ux writing edikka v1 manifest.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/protocole-ux-writing-edikka-v1.json": {
+      "url": "https://www.edikka.com/docbd/data/protocole-ux-writing-edikka-v1.json",
+      "source_documented": false,
+      "label": "protocole ux writing edikka v1.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/protocole-ux-writing-edikka-v1.xlsx": {
+      "url": "https://www.edikka.com/docbd/data/protocole-ux-writing-edikka-v1.xlsx",
+      "source_documented": false,
+      "label": "protocole ux writing edikka v1.xlsx",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/protocole-validation-grille-landing-page-edikka-v1.md": {
+      "url": "https://www.edikka.com/docbd/data/protocole-validation-grille-landing-page-edikka-v1.md",
+      "source_documented": false,
+      "label": "protocole validation grille landing page edikka v1.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/registre-affirmations-geo-edikka-v1-manifest.json": {
+      "url": "https://www.edikka.com/docbd/data/registre-affirmations-geo-edikka-v1-manifest.json",
+      "source_documented": false,
+      "label": "registre affirmations geo edikka v1 manifest.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/registre-affirmations-geo-edikka-v1.csv": {
+      "url": "https://www.edikka.com/docbd/data/registre-affirmations-geo-edikka-v1.csv",
+      "source_documented": false,
+      "label": "registre affirmations geo edikka v1.csv",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/registre-affirmations-geo-edikka-v1.json": {
+      "url": "https://www.edikka.com/docbd/data/registre-affirmations-geo-edikka-v1.json",
+      "source_documented": false,
+      "label": "registre affirmations geo edikka v1.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/registre-affirmations-geo-edikka-v1.sha256": {
+      "url": "https://www.edikka.com/docbd/data/registre-affirmations-geo-edikka-v1.sha256",
+      "source_documented": false,
+      "label": "registre affirmations geo edikka v1.sha256",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/registre-decision-audit-digital-edikka-v1-CITATION.cff": {
+      "url": "https://www.edikka.com/docbd/data/registre-decision-audit-digital-edikka-v1-CITATION.cff",
+      "source_documented": false,
+      "label": "registre decision audit digital edikka v1 CITATION.cff",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/registre-decision-audit-digital-edikka-v1-EVIDENCE-JOURNAL.md": {
+      "url": "https://www.edikka.com/docbd/data/registre-decision-audit-digital-edikka-v1-EVIDENCE-JOURNAL.md",
+      "source_documented": false,
+      "label": "registre decision audit digital edikka v1 EVIDENCE JOURNAL.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/registre-decision-audit-digital-edikka-v1-SHA256SUMS.txt": {
+      "url": "https://www.edikka.com/docbd/data/registre-decision-audit-digital-edikka-v1-SHA256SUMS.txt",
+      "source_documented": false,
+      "label": "registre decision audit digital edikka v1 SHA256SUMS.txt",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/registre-decision-audit-digital-edikka-v1-en.csv": {
+      "url": "https://www.edikka.com/docbd/data/registre-decision-audit-digital-edikka-v1-en.csv",
+      "source_documented": false,
+      "label": "registre decision audit digital edikka v1 en.csv",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/registre-decision-audit-digital-edikka-v1-manifest.json": {
+      "url": "https://www.edikka.com/docbd/data/registre-decision-audit-digital-edikka-v1-manifest.json",
+      "source_documented": false,
+      "label": "registre decision audit digital edikka v1 manifest.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/registre-decision-audit-digital-edikka-v1.csv": {
+      "url": "https://www.edikka.com/docbd/data/registre-decision-audit-digital-edikka-v1.csv",
+      "source_documented": false,
+      "label": "registre decision audit digital edikka v1.csv",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/registre-decision-audit-digital-edikka-v1.json": {
+      "url": "https://www.edikka.com/docbd/data/registre-decision-audit-digital-edikka-v1.json",
+      "source_documented": false,
+      "label": "registre decision audit digital edikka v1.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/registre-decision-audit-digital-edikka-v1.xlsx": {
+      "url": "https://www.edikka.com/docbd/data/registre-decision-audit-digital-edikka-v1.xlsx",
+      "source_documented": false,
+      "label": "registre decision audit digital edikka v1.xlsx",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/registre-risques-refonte-site-web-edikka-v1.json": {
+      "url": "https://www.edikka.com/docbd/data/registre-risques-refonte-site-web-edikka-v1.json",
+      "source_documented": false,
+      "label": "registre risques refonte site web edikka v1.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/registre-risques-refonte-site-web-edikka-v1.xlsx": {
+      "url": "https://www.edikka.com/docbd/data/registre-risques-refonte-site-web-edikka-v1.xlsx",
+      "source_documented": false,
+      "label": "registre risques refonte site web edikka v1.xlsx",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/rejeu-production-images-web-edikka-2026-08-23.json": {
+      "url": "https://www.edikka.com/docbd/data/rejeu-production-images-web-edikka-2026-08-23.json",
+      "source_documented": false,
+      "label": "rejeu production images web edikka 2026 08 23.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/reliable-ai-evaluation-12-cases.jsonl": {
+      "url": "https://www.edikka.com/docbd/data/reliable-ai-evaluation-12-cases.jsonl",
+      "source_documented": false,
+      "label": "reliable ai evaluation 12 cases.jsonl",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/schema-socle-accessibilite-site-professionnel-edikka-v1-1.json": {
+      "url": "https://www.edikka.com/docbd/data/schema-socle-accessibilite-site-professionnel-edikka-v1-1.json",
+      "source_documented": false,
+      "label": "schema socle accessibilite site professionnel edikka v1 1.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/seo-migration-website-redesign-matrix.csv": {
+      "url": "https://www.edikka.com/docbd/data/seo-migration-website-redesign-matrix.csv",
+      "source_documented": false,
+      "label": "seo migration website redesign matrix.csv",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/seo-migration-website-redesign-matrix.xlsx": {
+      "url": "https://www.edikka.com/docbd/data/seo-migration-website-redesign-matrix.xlsx",
+      "source_documented": false,
+      "label": "seo migration website redesign matrix.xlsx",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/socle-accessibilite-site-professionnel-edikka-v1-1.json": {
+      "url": "https://www.edikka.com/docbd/data/socle-accessibilite-site-professionnel-edikka-v1-1.json",
+      "source_documented": false,
+      "label": "socle accessibilite site professionnel edikka v1 1.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/socle-accessibilite-site-professionnel-edikka-v1.json": {
+      "url": "https://www.edikka.com/docbd/data/socle-accessibilite-site-professionnel-edikka-v1.json",
+      "source_documented": false,
+      "label": "socle accessibilite site professionnel edikka v1.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/socle-accessibilite-site-professionnel-edikka-v1.xlsx": {
+      "url": "https://www.edikka.com/docbd/data/socle-accessibilite-site-professionnel-edikka-v1.xlsx",
+      "source_documented": false,
+      "label": "socle accessibilite site professionnel edikka v1.xlsx",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/technical-seo-audit-grid-edikka-v1-1.json": {
+      "url": "https://www.edikka.com/docbd/data/technical-seo-audit-grid-edikka-v1-1.json",
+      "source_documented": false,
+      "label": "technical seo audit grid edikka v1 1.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/technical-seo-audit-grid-edikka-v1-1.xlsx": {
+      "url": "https://www.edikka.com/docbd/data/technical-seo-audit-grid-edikka-v1-1.xlsx",
+      "source_documented": false,
+      "label": "technical seo audit grid edikka v1 1.xlsx",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/technical-seo-public-self-audit-edikka-2026-08-22.json": {
+      "url": "https://www.edikka.com/docbd/data/technical-seo-public-self-audit-edikka-2026-08-22.json",
+      "source_documented": false,
+      "label": "technical seo public self audit edikka 2026 08 22.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/web-image-audit-grid-edikka-v1-1.json": {
+      "url": "https://www.edikka.com/docbd/data/web-image-audit-grid-edikka-v1-1.json",
+      "source_documented": false,
+      "label": "web image audit grid edikka v1 1.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/web-image-evidence-report-v1-1.schema.json": {
+      "url": "https://www.edikka.com/docbd/data/web-image-evidence-report-v1-1.schema.json",
+      "source_documented": false,
+      "label": "web image evidence report v1 1.schema.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/website-acceptance-testing-before-launch-matrix.xlsx": {
+      "url": "https://www.edikka.com/docbd/data/website-acceptance-testing-before-launch-matrix.xlsx",
+      "source_documented": false,
+      "label": "website acceptance testing before launch matrix.xlsx",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docbd/data/website-redesign-budget-estimator.xlsx": {
+      "url": "https://www.edikka.com/docbd/data/website-redesign-budget-estimator.xlsx",
+      "source_documented": false,
+      "label": "website redesign budget estimator.xlsx",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/docs/charte-edikka.pdf": {
+      "url": "https://www.edikka.com/docs/charte-edikka.pdf",
+      "source_documented": false,
+      "label": "charte edikka.pdf",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/en": {
+      "url": "https://www.edikka.com/en",
+      "source_documented": true,
+      "label": "en",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/accessibility": {
+      "url": "https://www.edikka.com/en/accessibility",
+      "source_documented": true,
+      "label": "accessibility",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/agency": {
+      "url": "https://www.edikka.com/en/agency",
+      "source_documented": true,
+      "label": "agency",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/agency/bertrand-morel": {
+      "url": "https://www.edikka.com/en/agency/bertrand-morel",
+      "source_documented": true,
+      "label": "bertrand morel",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/audit/accessibility": {
+      "url": "https://www.edikka.com/en/audit/accessibility",
+      "source_documented": true,
+      "label": "accessibility",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/collaborations": {
+      "url": "https://www.edikka.com/en/collaborations",
+      "source_documented": true,
+      "label": "collaborations",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/contact": {
+      "url": "https://www.edikka.com/en/contact",
+      "source_documented": true,
+      "label": "contact",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/contact?project=ai-assisted-faq": {
+      "url": "https://www.edikka.com/en/contact?project=ai-assisted-faq",
+      "source_documented": false,
+      "label": "contact",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/contact?project=ai-seo-automation": {
+      "url": "https://www.edikka.com/en/contact?project=ai-seo-automation",
+      "source_documented": false,
+      "label": "contact",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/contact?project=ai-visibility-measurement": {
+      "url": "https://www.edikka.com/en/contact?project=ai-visibility-measurement",
+      "source_documented": false,
+      "label": "contact",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/contact?project=conversion-design&source=insight": {
+      "url": "https://www.edikka.com/en/contact?project=conversion-design&source=insight",
+      "source_documented": false,
+      "label": "contact",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/contact?project=geo": {
+      "url": "https://www.edikka.com/en/contact?project=geo",
+      "source_documented": false,
+      "label": "contact",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/contact?project=landing-page": {
+      "url": "https://www.edikka.com/en/contact?project=landing-page",
+      "source_documented": false,
+      "label": "contact",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/contact?project=redesign": {
+      "url": "https://www.edikka.com/en/contact?project=redesign",
+      "source_documented": false,
+      "label": "contact",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/contact?project=redesign-pricing": {
+      "url": "https://www.edikka.com/en/contact?project=redesign-pricing",
+      "source_documented": false,
+      "label": "contact",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/contact?project=reliable-ai-integration": {
+      "url": "https://www.edikka.com/en/contact?project=reliable-ai-integration",
+      "source_documented": false,
+      "label": "contact",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/contact?project=ux-writing": {
+      "url": "https://www.edikka.com/en/contact?project=ux-writing",
+      "source_documented": false,
+      "label": "contact",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/contact?project=website-redesign": {
+      "url": "https://www.edikka.com/en/contact?project=website-redesign",
+      "source_documented": false,
+      "label": "contact",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/contact?source=cro": {
+      "url": "https://www.edikka.com/en/contact?source=cro",
+      "source_documented": false,
+      "label": "contact",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/contact?source=tunnel-b2b": {
+      "url": "https://www.edikka.com/en/contact?source=tunnel-b2b",
+      "source_documented": false,
+      "label": "contact",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/contact?subject=GEO%20register%20erratum": {
+      "url": "https://www.edikka.com/en/contact?subject=GEO%20register%20erratum",
+      "source_documented": false,
+      "label": "contact",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/expertise": {
+      "url": "https://www.edikka.com/en/expertise",
+      "source_documented": true,
+      "label": "expertise",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/expertise/ai": {
+      "url": "https://www.edikka.com/en/expertise/ai",
+      "source_documented": true,
+      "label": "ai",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/expertise/digital-strategy": {
+      "url": "https://www.edikka.com/en/expertise/digital-strategy",
+      "source_documented": true,
+      "label": "digital strategy",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/expertise/seo": {
+      "url": "https://www.edikka.com/en/expertise/seo",
+      "source_documented": true,
+      "label": "seo",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/expertise/ux-ui-design": {
+      "url": "https://www.edikka.com/en/expertise/ux-ui-design",
+      "source_documented": true,
+      "label": "ux ui design",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/expertise/web-development": {
+      "url": "https://www.edikka.com/en/expertise/web-development",
+      "source_documented": true,
+      "label": "web development",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/faq": {
+      "url": "https://www.edikka.com/en/faq",
+      "source_documented": true,
+      "label": "faq",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/faq/ai-web-automation": {
+      "url": "https://www.edikka.com/en/faq/ai-web-automation",
+      "source_documented": true,
+      "label": "ai web automation",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/faq/digital-strategy": {
+      "url": "https://www.edikka.com/en/faq/digital-strategy",
+      "source_documented": true,
+      "label": "digital strategy",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/faq/evidence": {
+      "url": "https://www.edikka.com/en/faq/evidence",
+      "source_documented": true,
+      "label": "evidence",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/faq/evidence.csv": {
+      "url": "https://www.edikka.com/en/faq/evidence.csv",
+      "source_documented": false,
+      "label": "evidence.csv",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/faq/evidence.json": {
+      "url": "https://www.edikka.com/en/faq/evidence.json",
+      "source_documented": false,
+      "label": "evidence.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/faq/seo": {
+      "url": "https://www.edikka.com/en/faq/seo",
+      "source_documented": true,
+      "label": "seo",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/faq/ux-ui-design": {
+      "url": "https://www.edikka.com/en/faq/ux-ui-design",
+      "source_documented": true,
+      "label": "ux ui design",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/faq/web-development": {
+      "url": "https://www.edikka.com/en/faq/web-development",
+      "source_documented": true,
+      "label": "web development",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights": {
+      "url": "https://www.edikka.com/en/insights",
+      "source_documented": true,
+      "label": "insights",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/ai-web-automation": {
+      "url": "https://www.edikka.com/en/insights/ai-web-automation",
+      "source_documented": true,
+      "label": "ai web automation",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/ai-web-automation/ai-assisted-faq-customer-questions": {
+      "url": "https://www.edikka.com/en/insights/ai-web-automation/ai-assisted-faq-customer-questions",
+      "source_documented": true,
+      "label": "ai assisted faq customer questions",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/ai-web-automation/ai-enhanced-back-office": {
+      "url": "https://www.edikka.com/en/insights/ai-web-automation/ai-enhanced-back-office",
+      "source_documented": true,
+      "label": "ai enhanced back office",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/ai-web-automation/ai-seo-automation": {
+      "url": "https://www.edikka.com/en/insights/ai-web-automation/ai-seo-automation",
+      "source_documented": true,
+      "label": "ai seo automation",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/ai-web-automation/ai-web-automation": {
+      "url": "https://www.edikka.com/en/insights/ai-web-automation/ai-web-automation",
+      "source_documented": true,
+      "label": "ai web automation",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/ai-web-automation/automating-meta-titles-descriptions": {
+      "url": "https://www.edikka.com/en/insights/ai-web-automation/automating-meta-titles-descriptions",
+      "source_documented": true,
+      "label": "automating meta titles descriptions",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/ai-web-automation/rag-website-ai": {
+      "url": "https://www.edikka.com/en/insights/ai-web-automation/rag-website-ai",
+      "source_documented": true,
+      "label": "rag website ai",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/ai-web-automation/reliable-ai-prompts-business-rules": {
+      "url": "https://www.edikka.com/en/insights/ai-web-automation/reliable-ai-prompts-business-rules",
+      "source_documented": true,
+      "label": "reliable ai prompts business rules",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/digital-strategy": {
+      "url": "https://www.edikka.com/en/insights/digital-strategy",
+      "source_documented": true,
+      "label": "digital strategy",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/digital-strategy/b2b-website-redesign-brief": {
+      "url": "https://www.edikka.com/en/insights/digital-strategy/b2b-website-redesign-brief",
+      "source_documented": true,
+      "label": "b2b website redesign brief",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/digital-strategy/build-profitable-digital-strategy": {
+      "url": "https://www.edikka.com/en/insights/digital-strategy/build-profitable-digital-strategy",
+      "source_documented": true,
+      "label": "build profitable digital strategy",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/digital-strategy/conversion-funnel-guide": {
+      "url": "https://www.edikka.com/en/insights/digital-strategy/conversion-funnel-guide",
+      "source_documented": true,
+      "label": "conversion funnel guide",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/digital-strategy/digital-audit-complete-method": {
+      "url": "https://www.edikka.com/en/insights/digital-strategy/digital-audit-complete-method",
+      "source_documented": true,
+      "label": "digital audit complete method",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/digital-strategy/turning-showcase-website-commercial-tool": {
+      "url": "https://www.edikka.com/en/insights/digital-strategy/turning-showcase-website-commercial-tool",
+      "source_documented": true,
+      "label": "turning showcase website commercial tool",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/digital-strategy/verifiable-proof-conversion-website": {
+      "url": "https://www.edikka.com/en/insights/digital-strategy/verifiable-proof-conversion-website",
+      "source_documented": true,
+      "label": "verifiable proof conversion website",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/digital-strategy/website-redesign-cost": {
+      "url": "https://www.edikka.com/en/insights/digital-strategy/website-redesign-cost",
+      "source_documented": true,
+      "label": "website redesign cost",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/digital-strategy/website-redesign-costly-mistakes": {
+      "url": "https://www.edikka.com/en/insights/digital-strategy/website-redesign-costly-mistakes",
+      "source_documented": true,
+      "label": "website redesign costly mistakes",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/digital-strategy/why-websites-fail-without-digital-strategy": {
+      "url": "https://www.edikka.com/en/insights/digital-strategy/why-websites-fail-without-digital-strategy",
+      "source_documented": true,
+      "label": "why websites fail without digital strategy",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/seo": {
+      "url": "https://www.edikka.com/en/insights/seo",
+      "source_documented": true,
+      "label": "SEO",
+      "label_basis": "observed_h1",
+      "kind": "url",
+      "metadata": {
+        "url": "https://www.edikka.com/en/insights/seo",
+        "observed_at": "2026-09-09",
+        "inventory_source": "audit/reference-france-2026-09-09/crawl.json",
+        "status": "200",
+        "canonical": "https://www.edikka.com/en/insights/seo",
+        "lang": "en",
+        "h1": "SEO",
+        "editorial_role": "hub",
+        "role_basis": "English SEO insight hub",
+        "robots": "index, follow, max-image-preview:large",
+        "verification_status": "archived_observation",
+        "limitations": "Post-15-August archive; not a technical before-state for that intervention.",
+        "row": 4
+      }
+    },
+    "https://www.edikka.com/en/insights/seo/ai-agent-ready-website": {
+      "url": "https://www.edikka.com/en/insights/seo/ai-agent-ready-website",
+      "source_documented": true,
+      "label": "ai agent ready website",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/seo/ai-citable-website": {
+      "url": "https://www.edikka.com/en/insights/seo/ai-citable-website",
+      "source_documented": true,
+      "label": "ai citable website",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/seo/ai-overviews-ai-mode-seo-ai-search": {
+      "url": "https://www.edikka.com/en/insights/seo/ai-overviews-ai-mode-seo-ai-search",
+      "source_documented": true,
+      "label": "ai overviews ai mode seo ai search",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/seo/block-ai-crawlers": {
+      "url": "https://www.edikka.com/en/insights/seo/block-ai-crawlers",
+      "source_documented": true,
+      "label": "block ai crawlers",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/seo/complete-seo-audit": {
+      "url": "https://www.edikka.com/en/insights/seo/complete-seo-audit",
+      "source_documented": true,
+      "label": "complete seo audit",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/seo/geo-agencies-france-public-evidence-study": {
+      "url": "https://www.edikka.com/en/insights/seo/geo-agencies-france-public-evidence-study",
+      "source_documented": true,
+      "label": "geo agencies france public evidence study",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/seo/geo-study-2026-ai-visibility-readiness-index": {
+      "url": "https://www.edikka.com/en/insights/seo/geo-study-2026-ai-visibility-readiness-index",
+      "source_documented": true,
+      "label": "geo study 2026 ai visibility readiness index",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/seo/measuring-ai-visibility-citations": {
+      "url": "https://www.edikka.com/en/insights/seo/measuring-ai-visibility-citations",
+      "source_documented": true,
+      "label": "measuring ai visibility citations",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/seo/seo-2026-what-really-works": {
+      "url": "https://www.edikka.com/en/insights/seo/seo-2026-what-really-works",
+      "source_documented": true,
+      "label": "seo 2026 what really works",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/seo/seo-architecture-website": {
+      "url": "https://www.edikka.com/en/insights/seo/seo-architecture-website",
+      "source_documented": true,
+      "label": "SEO architecture: how to structure a website for Google and AI engines",
+      "label_basis": "observed_h1",
+      "kind": "url",
+      "metadata": {
+        "url": "https://www.edikka.com/en/insights/seo/seo-architecture-website",
+        "observed_at": "2026-09-09",
+        "inventory_source": "audit/reference-france-2026-09-09/crawl.json",
+        "status": "200",
+        "canonical": "https://www.edikka.com/en/insights/seo/seo-architecture-website",
+        "lang": "en",
+        "h1": "SEO architecture: how to structure a website for Google and AI engines",
+        "editorial_role": "reference",
+        "role_basis": "English SEO architecture guide",
+        "robots": "index, follow",
+        "verification_status": "archived_observation",
+        "limitations": "Post-15-August archive; not a technical before-state for that intervention.",
+        "row": 6
+      }
+    },
+    "https://www.edikka.com/en/insights/seo/seo-migration-website-redesign": {
+      "url": "https://www.edikka.com/en/insights/seo/seo-migration-website-redesign",
+      "source_documented": true,
+      "label": "seo migration website redesign",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/seo/seo-mistakes-visibility": {
+      "url": "https://www.edikka.com/en/insights/seo/seo-mistakes-visibility",
+      "source_documented": true,
+      "label": "seo mistakes visibility",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/seo/seo-pillar-pages": {
+      "url": "https://www.edikka.com/en/insights/seo/seo-pillar-pages",
+      "source_documented": true,
+      "label": "seo pillar pages",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/seo/structured-data-seo-geo": {
+      "url": "https://www.edikka.com/en/insights/seo/structured-data-seo-geo",
+      "source_documented": true,
+      "label": "structured data seo geo",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/seo/what-is-geo": {
+      "url": "https://www.edikka.com/en/insights/seo/what-is-geo",
+      "source_documented": true,
+      "label": "what is geo",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/ux-ui-design": {
+      "url": "https://www.edikka.com/en/insights/ux-ui-design",
+      "source_documented": true,
+      "label": "ux ui design",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/ux-ui-design/cro-improve-conversion-rate": {
+      "url": "https://www.edikka.com/en/insights/ux-ui-design/cro-improve-conversion-rate",
+      "source_documented": true,
+      "label": "cro improve conversion rate",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/ux-ui-design/design-that-converts": {
+      "url": "https://www.edikka.com/en/insights/ux-ui-design/design-that-converts",
+      "source_documented": true,
+      "label": "design that converts",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/ux-ui-design/effective-landing-page": {
+      "url": "https://www.edikka.com/en/insights/ux-ui-design/effective-landing-page",
+      "source_documented": true,
+      "label": "effective landing page",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/ux-ui-design/ux-trust-signals-conversion": {
+      "url": "https://www.edikka.com/en/insights/ux-ui-design/ux-trust-signals-conversion",
+      "source_documented": true,
+      "label": "ux trust signals conversion",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/ux-ui-design/ux-vs-ui-differences": {
+      "url": "https://www.edikka.com/en/insights/ux-ui-design/ux-vs-ui-differences",
+      "source_documented": true,
+      "label": "ux vs ui differences",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/ux-ui-design/ux-writing-clearer-interfaces": {
+      "url": "https://www.edikka.com/en/insights/ux-ui-design/ux-writing-clearer-interfaces",
+      "source_documented": true,
+      "label": "ux writing clearer interfaces",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/web-development": {
+      "url": "https://www.edikka.com/en/insights/web-development",
+      "source_documented": true,
+      "label": "web development",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/web-development/accessibility-seo-ai-semantic-html": {
+      "url": "https://www.edikka.com/en/insights/web-development/accessibility-seo-ai-semantic-html",
+      "source_documented": true,
+      "label": "accessibility seo ai semantic html",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/web-development/accessible-forms-lost-leads": {
+      "url": "https://www.edikka.com/en/insights/web-development/accessible-forms-lost-leads",
+      "source_documented": true,
+      "label": "accessible forms lost leads",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/web-development/core-web-vitals-guide": {
+      "url": "https://www.edikka.com/en/insights/web-development/core-web-vitals-guide",
+      "source_documented": true,
+      "label": "core web vitals guide",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/web-development/front-end-vs-back-end-simple-explanation": {
+      "url": "https://www.edikka.com/en/insights/web-development/front-end-vs-back-end-simple-explanation",
+      "source_documented": true,
+      "label": "front end vs back end simple explanation",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/web-development/lighthouse-100-accessibility": {
+      "url": "https://www.edikka.com/en/insights/web-development/lighthouse-100-accessibility",
+      "source_documented": true,
+      "label": "lighthouse 100 accessibility",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/web-development/real-accessibility-audit-automated-tools-miss": {
+      "url": "https://www.edikka.com/en/insights/web-development/real-accessibility-audit-automated-tools-miss",
+      "source_documented": true,
+      "label": "real accessibility audit automated tools miss",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/web-development/rgaa-wcag-eaa-digital-accessibility": {
+      "url": "https://www.edikka.com/en/insights/web-development/rgaa-wcag-eaa-digital-accessibility",
+      "source_documented": true,
+      "label": "rgaa wcag eaa digital accessibility",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/web-development/slow-website-business-impact": {
+      "url": "https://www.edikka.com/en/insights/web-development/slow-website-business-impact",
+      "source_documented": true,
+      "label": "slow website business impact",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/web-development/technical-seo-foundations": {
+      "url": "https://www.edikka.com/en/insights/web-development/technical-seo-foundations",
+      "source_documented": true,
+      "label": "technical seo foundations",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/web-development/web-accessibility-professional-website-basics": {
+      "url": "https://www.edikka.com/en/insights/web-development/web-accessibility-professional-website-basics",
+      "source_documented": true,
+      "label": "web accessibility professional website basics",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/web-development/web-image-optimisation": {
+      "url": "https://www.edikka.com/en/insights/web-development/web-image-optimisation",
+      "source_documented": true,
+      "label": "web image optimisation",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/insights/web-development/website-acceptance-testing-before-launch": {
+      "url": "https://www.edikka.com/en/insights/web-development/website-acceptance-testing-before-launch",
+      "source_documented": true,
+      "label": "website acceptance testing before launch",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/legal-notice": {
+      "url": "https://www.edikka.com/en/legal-notice",
+      "source_documented": true,
+      "label": "legal notice",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/library": {
+      "url": "https://www.edikka.com/en/library",
+      "source_documented": true,
+      "label": "library",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/press/geo-claim-register": {
+      "url": "https://www.edikka.com/en/press/geo-claim-register",
+      "source_documented": true,
+      "label": "geo claim register",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/press/geo-public-evidence-france-2026": {
+      "url": "https://www.edikka.com/en/press/geo-public-evidence-france-2026",
+      "source_documented": true,
+      "label": "geo public evidence france 2026",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/press/mia-fr-ai-visibility-2026": {
+      "url": "https://www.edikka.com/en/press/mia-fr-ai-visibility-2026",
+      "source_documented": true,
+      "label": "mia fr ai visibility 2026",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/privacy-policy": {
+      "url": "https://www.edikka.com/en/privacy-policy",
+      "source_documented": true,
+      "label": "privacy policy",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/projects": {
+      "url": "https://www.edikka.com/en/projects",
+      "source_documented": true,
+      "label": "projects",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/projects/anticstore": {
+      "url": "https://www.edikka.com/en/projects/anticstore",
+      "source_documented": true,
+      "label": "anticstore",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/projects/cks-consulting": {
+      "url": "https://www.edikka.com/en/projects/cks-consulting",
+      "source_documented": true,
+      "label": "cks consulting",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/projects/fredericmatt": {
+      "url": "https://www.edikka.com/en/projects/fredericmatt",
+      "source_documented": true,
+      "label": "fredericmatt",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/projects/galerie-wanecq": {
+      "url": "https://www.edikka.com/en/projects/galerie-wanecq",
+      "source_documented": true,
+      "label": "galerie wanecq",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/projects/imf": {
+      "url": "https://www.edikka.com/en/projects/imf",
+      "source_documented": true,
+      "label": "imf",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/projects/locafinance": {
+      "url": "https://www.edikka.com/en/projects/locafinance",
+      "source_documented": true,
+      "label": "locafinance",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/projects/methode-web": {
+      "url": "https://www.edikka.com/en/projects/methode-web",
+      "source_documented": true,
+      "label": "methode web",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/projects/uth": {
+      "url": "https://www.edikka.com/en/projects/uth",
+      "source_documented": true,
+      "label": "uth",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/en/website-redesign": {
+      "url": "https://www.edikka.com/en/website-redesign",
+      "source_documented": true,
+      "label": "website redesign",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/expertise": {
+      "url": "https://www.edikka.com/expertise",
+      "source_documented": true,
+      "label": "expertise",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/expertise/developpement-web": {
+      "url": "https://www.edikka.com/expertise/developpement-web",
+      "source_documented": true,
+      "label": "developpement web",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/expertise/ia": {
+      "url": "https://www.edikka.com/expertise/ia",
+      "source_documented": true,
+      "label": "ia",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/expertise/seo": {
+      "url": "https://www.edikka.com/expertise/seo",
+      "source_documented": true,
+      "label": "seo",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/expertise/strategie-digitale": {
+      "url": "https://www.edikka.com/expertise/strategie-digitale",
+      "source_documented": true,
+      "label": "strategie digitale",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/expertise/ux-ui-design": {
+      "url": "https://www.edikka.com/expertise/ux-ui-design",
+      "source_documented": true,
+      "label": "ux ui design",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/expertise/ux-ui-design/charte-graphique": {
+      "url": "https://www.edikka.com/expertise/ux-ui-design/charte-graphique",
+      "source_documented": true,
+      "label": "charte graphique",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/faq": {
+      "url": "https://www.edikka.com/faq",
+      "source_documented": true,
+      "label": "faq",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/faq/developpement-web": {
+      "url": "https://www.edikka.com/faq/developpement-web",
+      "source_documented": true,
+      "label": "developpement web",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/faq/ia-automatisation-web": {
+      "url": "https://www.edikka.com/faq/ia-automatisation-web",
+      "source_documented": true,
+      "label": "ia automatisation web",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/faq/preuves": {
+      "url": "https://www.edikka.com/faq/preuves",
+      "source_documented": true,
+      "label": "preuves",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/faq/preuves.csv": {
+      "url": "https://www.edikka.com/faq/preuves.csv",
+      "source_documented": false,
+      "label": "preuves.csv",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/faq/preuves.json": {
+      "url": "https://www.edikka.com/faq/preuves.json",
+      "source_documented": false,
+      "label": "preuves.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/faq/seo": {
+      "url": "https://www.edikka.com/faq/seo",
+      "source_documented": true,
+      "label": "seo",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/faq/strategie-digitale": {
+      "url": "https://www.edikka.com/faq/strategie-digitale",
+      "source_documented": true,
+      "label": "strategie digitale",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/faq/ux-ui-design": {
+      "url": "https://www.edikka.com/faq/ux-ui-design",
+      "source_documented": true,
+      "label": "ux ui design",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights": {
+      "url": "https://www.edikka.com/insights",
+      "source_documented": true,
+      "label": "insights",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/developpement-web": {
+      "url": "https://www.edikka.com/insights/developpement-web",
+      "source_documented": true,
+      "label": "developpement web",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/developpement-web/accessibilite-seo-ia-html-semantique": {
+      "url": "https://www.edikka.com/insights/developpement-web/accessibilite-seo-ia-html-semantique",
+      "source_documented": true,
+      "label": "accessibilite seo ia html semantique",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/developpement-web/accessibilite-web-bases-site-professionnel": {
+      "url": "https://www.edikka.com/insights/developpement-web/accessibilite-web-bases-site-professionnel",
+      "source_documented": true,
+      "label": "accessibilite web bases site professionnel",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/developpement-web/audit-accessibilite-reel-tests-humains-outils": {
+      "url": "https://www.edikka.com/insights/developpement-web/audit-accessibilite-reel-tests-humains-outils",
+      "source_documented": true,
+      "label": "audit accessibilite reel tests humains outils",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/developpement-web/core-web-vitals-guide": {
+      "url": "https://www.edikka.com/insights/developpement-web/core-web-vitals-guide",
+      "source_documented": true,
+      "label": "core web vitals guide",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/developpement-web/formulaire-accessible-erreurs-contacts-perdus": {
+      "url": "https://www.edikka.com/insights/developpement-web/formulaire-accessible-erreurs-contacts-perdus",
+      "source_documented": true,
+      "label": "formulaire accessible erreurs contacts perdus",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/developpement-web/frontend-vs-backend": {
+      "url": "https://www.edikka.com/insights/developpement-web/frontend-vs-backend",
+      "source_documented": true,
+      "label": "frontend vs backend",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/developpement-web/lighthouse-100-accessibilite": {
+      "url": "https://www.edikka.com/insights/developpement-web/lighthouse-100-accessibilite",
+      "source_documented": true,
+      "label": "lighthouse 100 accessibilite",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/developpement-web/optimisation-images-web": {
+      "url": "https://www.edikka.com/insights/developpement-web/optimisation-images-web",
+      "source_documented": true,
+      "label": "optimisation images web",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/developpement-web/recette-site-web-avant-mise-en-ligne": {
+      "url": "https://www.edikka.com/insights/developpement-web/recette-site-web-avant-mise-en-ligne",
+      "source_documented": true,
+      "label": "recette site web avant mise en ligne",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/developpement-web/rgaa-wcag-eaa-accessibilite-numerique": {
+      "url": "https://www.edikka.com/insights/developpement-web/rgaa-wcag-eaa-accessibilite-numerique",
+      "source_documented": true,
+      "label": "rgaa wcag eaa accessibilite numerique",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/developpement-web/seo-technique-fondations": {
+      "url": "https://www.edikka.com/insights/developpement-web/seo-technique-fondations",
+      "source_documented": true,
+      "label": "seo technique fondations",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/developpement-web/site-lent-impact-business": {
+      "url": "https://www.edikka.com/insights/developpement-web/site-lent-impact-business",
+      "source_documented": true,
+      "label": "site lent impact business",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/ia-automatisation-web": {
+      "url": "https://www.edikka.com/insights/ia-automatisation-web",
+      "source_documented": true,
+      "label": "ia automatisation web",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/ia-automatisation-web/automatisation-seo-ia": {
+      "url": "https://www.edikka.com/insights/ia-automatisation-web/automatisation-seo-ia",
+      "source_documented": true,
+      "label": "automatisation seo ia",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/ia-automatisation-web/automatiser-meta-title-description": {
+      "url": "https://www.edikka.com/insights/ia-automatisation-web/automatiser-meta-title-description",
+      "source_documented": true,
+      "label": "automatiser meta title description",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/ia-automatisation-web/back-office-augmente-ia": {
+      "url": "https://www.edikka.com/insights/ia-automatisation-web/back-office-augmente-ia",
+      "source_documented": true,
+      "label": "back office augmente ia",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/ia-automatisation-web/faq-assistee-ia-questions-clients": {
+      "url": "https://www.edikka.com/insights/ia-automatisation-web/faq-assistee-ia-questions-clients",
+      "source_documented": true,
+      "label": "faq assistee ia questions clients",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/ia-automatisation-web/ia-automatisation-web": {
+      "url": "https://www.edikka.com/insights/ia-automatisation-web/ia-automatisation-web",
+      "source_documented": true,
+      "label": "ia automatisation web",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/ia-automatisation-web/ia-fiable-prompt-regles-metier": {
+      "url": "https://www.edikka.com/insights/ia-automatisation-web/ia-fiable-prompt-regles-metier",
+      "source_documented": true,
+      "label": "ia fiable prompt regles metier",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/ia-automatisation-web/rag-site-web-ia": {
+      "url": "https://www.edikka.com/insights/ia-automatisation-web/rag-site-web-ia",
+      "source_documented": true,
+      "label": "rag site web ia",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/observatoire-accessibilite": {
+      "url": "https://www.edikka.com/insights/observatoire-accessibilite",
+      "source_documented": true,
+      "label": "observatoire accessibilite",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/seo": {
+      "url": "https://www.edikka.com/insights/seo",
+      "source_documented": true,
+      "label": "Insights en SEO & visibilité IA",
+      "label_basis": "observed_h1",
+      "kind": "url",
+      "metadata": {
+        "url": "https://www.edikka.com/insights/seo",
+        "observed_at": "2026-09-09",
+        "inventory_source": "audit/reference-france-2026-09-09/crawl.json",
+        "status": "200",
+        "canonical": "https://www.edikka.com/insights/seo",
+        "lang": "fr",
+        "h1": "Insights en SEO & visibilité IA",
+        "editorial_role": "hub",
+        "role_basis": "French SEO insight hub",
+        "robots": "index, follow, max-image-preview:large",
+        "verification_status": "archived_observation",
+        "limitations": "Post-15-August archive; not a technical before-state for that intervention.",
+        "row": 3
+      }
+    },
+    "https://www.edikka.com/insights/seo/ai-overviews-ai-mode-seo-recherche-ia": {
+      "url": "https://www.edikka.com/insights/seo/ai-overviews-ai-mode-seo-recherche-ia",
+      "source_documented": true,
+      "label": "ai overviews ai mode seo recherche ia",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/seo/architecture-seo-site": {
+      "url": "https://www.edikka.com/insights/seo/architecture-seo-site",
+      "source_documented": true,
+      "label": "Architecture SEO : comment structurer un site pour Google et les moteurs IA",
+      "label_basis": "observed_h1",
+      "kind": "url",
+      "metadata": {
+        "url": "https://www.edikka.com/insights/seo/architecture-seo-site",
+        "observed_at": "2026-09-09",
+        "inventory_source": "audit/reference-france-2026-09-09/crawl.json",
+        "status": "200",
+        "canonical": "https://www.edikka.com/insights/seo/architecture-seo-site",
+        "lang": "fr",
+        "h1": "Architecture SEO : comment structurer un site pour Google et les moteurs IA",
+        "editorial_role": "reference",
+        "role_basis": "French SEO architecture guide",
+        "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+        "verification_status": "archived_observation",
+        "limitations": "Post-15-August archive; not a technical before-state for that intervention.",
+        "row": 5
+      }
+    },
+    "https://www.edikka.com/insights/seo/audit-seo-complet": {
+      "url": "https://www.edikka.com/insights/seo/audit-seo-complet",
+      "source_documented": true,
+      "label": "audit seo complet",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/seo/barometre-agences-geo-france-preuves-publiques": {
+      "url": "https://www.edikka.com/insights/seo/barometre-agences-geo-france-preuves-publiques",
+      "source_documented": true,
+      "label": "barometre agences geo france preuves publiques",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/seo/bloquer-robots-ia": {
+      "url": "https://www.edikka.com/insights/seo/bloquer-robots-ia",
+      "source_documented": true,
+      "label": "bloquer robots ia",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/seo/donnees-structurees-seo-geo": {
+      "url": "https://www.edikka.com/insights/seo/donnees-structurees-seo-geo",
+      "source_documented": true,
+      "label": "donnees structurees seo geo",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/seo/erreurs-seo-visibilite": {
+      "url": "https://www.edikka.com/insights/seo/erreurs-seo-visibilite",
+      "source_documented": true,
+      "label": "erreurs seo visibilite",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/seo/etude-geo-2026-indice-preparation-visibilite-ia": {
+      "url": "https://www.edikka.com/insights/seo/etude-geo-2026-indice-preparation-visibilite-ia",
+      "source_documented": true,
+      "label": "etude geo 2026 indice preparation visibilite ia",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/seo/mesurer-visibilite-ia-citations": {
+      "url": "https://www.edikka.com/insights/seo/mesurer-visibilite-ia-citations",
+      "source_documented": true,
+      "label": "mesurer visibilite ia citations",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/seo/migration-seo-refonte-site-internet": {
+      "url": "https://www.edikka.com/insights/seo/migration-seo-refonte-site-internet",
+      "source_documented": true,
+      "label": "migration seo refonte site internet",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/seo/pages-piliers-seo": {
+      "url": "https://www.edikka.com/insights/seo/pages-piliers-seo",
+      "source_documented": true,
+      "label": "pages piliers seo",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/seo/qu-est-ce-que-le-geo": {
+      "url": "https://www.edikka.com/insights/seo/qu-est-ce-que-le-geo",
+      "source_documented": true,
+      "label": "qu est ce que le geo",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/seo/seo-2026-ce-qui-fonctionne": {
+      "url": "https://www.edikka.com/insights/seo/seo-2026-ce-qui-fonctionne",
+      "source_documented": true,
+      "label": "seo 2026 ce qui fonctionne",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/seo/site-citable-ia": {
+      "url": "https://www.edikka.com/insights/seo/site-citable-ia",
+      "source_documented": true,
+      "label": "site citable ia",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/seo/site-pret-agents-ia": {
+      "url": "https://www.edikka.com/insights/seo/site-pret-agents-ia",
+      "source_documented": true,
+      "label": "site pret agents ia",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/strategie-digitale": {
+      "url": "https://www.edikka.com/insights/strategie-digitale",
+      "source_documented": true,
+      "label": "strategie digitale",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/strategie-digitale/audit-digital-complet": {
+      "url": "https://www.edikka.com/insights/strategie-digitale/audit-digital-complet",
+      "source_documented": true,
+      "label": "audit digital complet",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/strategie-digitale/cahier-des-charges-refonte-site-internet": {
+      "url": "https://www.edikka.com/insights/strategie-digitale/cahier-des-charges-refonte-site-internet",
+      "source_documented": true,
+      "label": "cahier des charges refonte site internet",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/strategie-digitale/construire-strategie-digitale-rentable": {
+      "url": "https://www.edikka.com/insights/strategie-digitale/construire-strategie-digitale-rentable",
+      "source_documented": true,
+      "label": "construire strategie digitale rentable",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/strategie-digitale/pourquoi-sites-echouent-sans-strategie-digitale": {
+      "url": "https://www.edikka.com/insights/strategie-digitale/pourquoi-sites-echouent-sans-strategie-digitale",
+      "source_documented": true,
+      "label": "pourquoi sites echouent sans strategie digitale",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/strategie-digitale/preuve-verifiable-conversion-site-web": {
+      "url": "https://www.edikka.com/insights/strategie-digitale/preuve-verifiable-conversion-site-web",
+      "source_documented": true,
+      "label": "preuve verifiable conversion site web",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/strategie-digitale/prix-refonte-site-internet": {
+      "url": "https://www.edikka.com/insights/strategie-digitale/prix-refonte-site-internet",
+      "source_documented": true,
+      "label": "prix refonte site internet",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/strategie-digitale/refonte-site-web-erreurs-couteuses": {
+      "url": "https://www.edikka.com/insights/strategie-digitale/refonte-site-web-erreurs-couteuses",
+      "source_documented": true,
+      "label": "refonte site web erreurs couteuses",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/strategie-digitale/transformer-site-vitrine-outil-commercial": {
+      "url": "https://www.edikka.com/insights/strategie-digitale/transformer-site-vitrine-outil-commercial",
+      "source_documented": true,
+      "label": "transformer site vitrine outil commercial",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/strategie-digitale/tunnel-de-conversion": {
+      "url": "https://www.edikka.com/insights/strategie-digitale/tunnel-de-conversion",
+      "source_documented": true,
+      "label": "tunnel de conversion",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/ux-ui-design": {
+      "url": "https://www.edikka.com/insights/ux-ui-design",
+      "source_documented": true,
+      "label": "ux ui design",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/ux-ui-design/cro-ameliorer-taux-conversion": {
+      "url": "https://www.edikka.com/insights/ux-ui-design/cro-ameliorer-taux-conversion",
+      "source_documented": true,
+      "label": "cro ameliorer taux conversion",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/ux-ui-design/design-qui-convertit": {
+      "url": "https://www.edikka.com/insights/ux-ui-design/design-qui-convertit",
+      "source_documented": true,
+      "label": "design qui convertit",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/ux-ui-design/landing-page-efficace": {
+      "url": "https://www.edikka.com/insights/ux-ui-design/landing-page-efficace",
+      "source_documented": true,
+      "label": "landing page efficace",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/ux-ui-design/reassurance-ux-conversion": {
+      "url": "https://www.edikka.com/insights/ux-ui-design/reassurance-ux-conversion",
+      "source_documented": true,
+      "label": "reassurance ux conversion",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/ux-ui-design/ux-vs-ui-differences": {
+      "url": "https://www.edikka.com/insights/ux-ui-design/ux-vs-ui-differences",
+      "source_documented": true,
+      "label": "ux vs ui differences",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights/ux-ui-design/ux-writing-interfaces-claires": {
+      "url": "https://www.edikka.com/insights/ux-ui-design/ux-writing-interfaces-claires",
+      "source_documented": true,
+      "label": "ux writing interfaces claires",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights?category=developpement-web": {
+      "url": "https://www.edikka.com/insights?category=developpement-web",
+      "source_documented": false,
+      "label": "insights",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights?category=ia-automatisation-web": {
+      "url": "https://www.edikka.com/insights?category=ia-automatisation-web",
+      "source_documented": false,
+      "label": "insights",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights?category=seo": {
+      "url": "https://www.edikka.com/insights?category=seo",
+      "source_documented": false,
+      "label": "insights",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights?category=strategie-digitale": {
+      "url": "https://www.edikka.com/insights?category=strategie-digitale",
+      "source_documented": false,
+      "label": "insights",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights?category=ux-ui-design": {
+      "url": "https://www.edikka.com/insights?category=ux-ui-design",
+      "source_documented": false,
+      "label": "insights",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights?q=accessibilit%C3%A9": {
+      "url": "https://www.edikka.com/insights?q=accessibilit%C3%A9",
+      "source_documented": false,
+      "label": "insights",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/insights?q=conversion": {
+      "url": "https://www.edikka.com/insights?q=conversion",
+      "source_documented": false,
+      "label": "insights",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/llms/insights/accessibilite-web-bases-site-professionnel.md": {
+      "url": "https://www.edikka.com/llms/insights/accessibilite-web-bases-site-professionnel.md",
+      "source_documented": false,
+      "label": "accessibilite web bases site professionnel.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/llms/insights/ai-seo-automation.md": {
+      "url": "https://www.edikka.com/llms/insights/ai-seo-automation.md",
+      "source_documented": false,
+      "label": "ai seo automation.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/llms/insights/audit-digital-complet.md": {
+      "url": "https://www.edikka.com/llms/insights/audit-digital-complet.md",
+      "source_documented": false,
+      "label": "audit digital complet.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/llms/insights/automatisation-seo-ia.md": {
+      "url": "https://www.edikka.com/llms/insights/automatisation-seo-ia.md",
+      "source_documented": false,
+      "label": "automatisation seo ia.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/llms/insights/b2b-website-redesign-brief.md": {
+      "url": "https://www.edikka.com/llms/insights/b2b-website-redesign-brief.md",
+      "source_documented": false,
+      "label": "b2b website redesign brief.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/llms/insights/block-ai-crawlers.md": {
+      "url": "https://www.edikka.com/llms/insights/block-ai-crawlers.md",
+      "source_documented": false,
+      "label": "block ai crawlers.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/llms/insights/bloquer-robots-ia.md": {
+      "url": "https://www.edikka.com/llms/insights/bloquer-robots-ia.md",
+      "source_documented": false,
+      "label": "bloquer robots ia.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/llms/insights/cahier-des-charges-refonte-site-internet-b2b.md": {
+      "url": "https://www.edikka.com/llms/insights/cahier-des-charges-refonte-site-internet-b2b.md",
+      "source_documented": false,
+      "label": "cahier des charges refonte site internet b2b.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/llms/insights/core-web-vitals-guide-fr-v1-2.md": {
+      "url": "https://www.edikka.com/llms/insights/core-web-vitals-guide-fr-v1-2.md",
+      "source_documented": false,
+      "label": "core web vitals guide fr v1 2.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/llms/insights/core-web-vitals-guide-v1-2.md": {
+      "url": "https://www.edikka.com/llms/insights/core-web-vitals-guide-v1-2.md",
+      "source_documented": false,
+      "label": "core web vitals guide v1 2.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/llms/insights/design-qui-convertit.md": {
+      "url": "https://www.edikka.com/llms/insights/design-qui-convertit.md",
+      "source_documented": false,
+      "label": "design qui convertit.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/llms/insights/design-that-converts.md": {
+      "url": "https://www.edikka.com/llms/insights/design-that-converts.md",
+      "source_documented": false,
+      "label": "design that converts.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/llms/insights/digital-audit-complete-method.md": {
+      "url": "https://www.edikka.com/llms/insights/digital-audit-complete-method.md",
+      "source_documented": false,
+      "label": "digital audit complete method.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/llms/insights/effective-landing-page.md": {
+      "url": "https://www.edikka.com/llms/insights/effective-landing-page.md",
+      "source_documented": false,
+      "label": "effective landing page.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/llms/insights/ia-fiable-prompt-regles-metier.md": {
+      "url": "https://www.edikka.com/llms/insights/ia-fiable-prompt-regles-metier.md",
+      "source_documented": false,
+      "label": "ia fiable prompt regles metier.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/llms/insights/landing-page-efficace.md": {
+      "url": "https://www.edikka.com/llms/insights/landing-page-efficace.md",
+      "source_documented": false,
+      "label": "landing page efficace.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/llms/insights/measuring-ai-visibility-citations.md": {
+      "url": "https://www.edikka.com/llms/insights/measuring-ai-visibility-citations.md",
+      "source_documented": false,
+      "label": "measuring ai visibility citations.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/llms/insights/mesurer-visibilite-ia-citations.md": {
+      "url": "https://www.edikka.com/llms/insights/mesurer-visibilite-ia-citations.md",
+      "source_documented": false,
+      "label": "mesurer visibilite ia citations.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/llms/insights/optimisation-images-web.md": {
+      "url": "https://www.edikka.com/llms/insights/optimisation-images-web.md",
+      "source_documented": false,
+      "label": "optimisation images web.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/llms/insights/recette-site-web-avant-mise-en-ligne.md": {
+      "url": "https://www.edikka.com/llms/insights/recette-site-web-avant-mise-en-ligne.md",
+      "source_documented": false,
+      "label": "recette site web avant mise en ligne.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/llms/insights/reliable-ai-prompts-business-rules.md": {
+      "url": "https://www.edikka.com/llms/insights/reliable-ai-prompts-business-rules.md",
+      "source_documented": false,
+      "label": "reliable ai prompts business rules.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/llms/insights/seo-technique-fondations.md": {
+      "url": "https://www.edikka.com/llms/insights/seo-technique-fondations.md",
+      "source_documented": false,
+      "label": "seo technique fondations.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/llms/insights/technical-seo-foundations.md": {
+      "url": "https://www.edikka.com/llms/insights/technical-seo-foundations.md",
+      "source_documented": false,
+      "label": "technical seo foundations.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/llms/insights/ux-vs-ui-differences-en.md": {
+      "url": "https://www.edikka.com/llms/insights/ux-vs-ui-differences-en.md",
+      "source_documented": false,
+      "label": "ux vs ui differences en.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/llms/insights/ux-vs-ui-differences.md": {
+      "url": "https://www.edikka.com/llms/insights/ux-vs-ui-differences.md",
+      "source_documented": false,
+      "label": "ux vs ui differences.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/llms/insights/ux-writing-clearer-interfaces.md": {
+      "url": "https://www.edikka.com/llms/insights/ux-writing-clearer-interfaces.md",
+      "source_documented": false,
+      "label": "ux writing clearer interfaces.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/llms/insights/ux-writing-interfaces-claires.md": {
+      "url": "https://www.edikka.com/llms/insights/ux-writing-interfaces-claires.md",
+      "source_documented": false,
+      "label": "ux writing interfaces claires.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/llms/insights/web-accessibility-professional-website-basics.md": {
+      "url": "https://www.edikka.com/llms/insights/web-accessibility-professional-website-basics.md",
+      "source_documented": false,
+      "label": "web accessibility professional website basics.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/llms/insights/web-image-optimisation.md": {
+      "url": "https://www.edikka.com/llms/insights/web-image-optimisation.md",
+      "source_documented": false,
+      "label": "web image optimisation.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/llms/insights/website-acceptance-testing-before-launch.md": {
+      "url": "https://www.edikka.com/llms/insights/website-acceptance-testing-before-launch.md",
+      "source_documented": false,
+      "label": "website acceptance testing before launch.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/mentions-legales": {
+      "url": "https://www.edikka.com/mentions-legales",
+      "source_documented": true,
+      "label": "mentions legales",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/methodologie/barometre-agences-geo-france": {
+      "url": "https://www.edikka.com/methodologie/barometre-agences-geo-france",
+      "source_documented": true,
+      "label": "barometre agences geo france",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/politique-de-confidentialite": {
+      "url": "https://www.edikka.com/politique-de-confidentialite",
+      "source_documented": true,
+      "label": "politique de confidentialite",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/presse/barometre-agences-geo-2026": {
+      "url": "https://www.edikka.com/presse/barometre-agences-geo-2026",
+      "source_documented": true,
+      "label": "barometre agences geo 2026",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/presse/etude-geo-2026": {
+      "url": "https://www.edikka.com/presse/etude-geo-2026",
+      "source_documented": true,
+      "label": "etude geo 2026",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/presse/mia-fr-visibilite-ia-2026": {
+      "url": "https://www.edikka.com/presse/mia-fr-visibilite-ia-2026",
+      "source_documented": true,
+      "label": "mia fr visibilite ia 2026",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/presse/registre-affirmations-geo": {
+      "url": "https://www.edikka.com/presse/registre-affirmations-geo",
+      "source_documented": true,
+      "label": "registre affirmations geo",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/projets": {
+      "url": "https://www.edikka.com/projets",
+      "source_documented": true,
+      "label": "projets",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/projets/anticstore": {
+      "url": "https://www.edikka.com/projets/anticstore",
+      "source_documented": true,
+      "label": "anticstore",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/projets/cks-consulting": {
+      "url": "https://www.edikka.com/projets/cks-consulting",
+      "source_documented": true,
+      "label": "cks consulting",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/projets/fredericmatt": {
+      "url": "https://www.edikka.com/projets/fredericmatt",
+      "source_documented": true,
+      "label": "fredericmatt",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/projets/galerie-wanecq": {
+      "url": "https://www.edikka.com/projets/galerie-wanecq",
+      "source_documented": true,
+      "label": "galerie wanecq",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/projets/imf": {
+      "url": "https://www.edikka.com/projets/imf",
+      "source_documented": true,
+      "label": "imf",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/projets/locafinance": {
+      "url": "https://www.edikka.com/projets/locafinance",
+      "source_documented": true,
+      "label": "locafinance",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/projets/methode-web": {
+      "url": "https://www.edikka.com/projets/methode-web",
+      "source_documented": true,
+      "label": "methode web",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/projets/uth": {
+      "url": "https://www.edikka.com/projets/uth",
+      "source_documented": true,
+      "label": "uth",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/refonte-site-internet": {
+      "url": "https://www.edikka.com/refonte-site-internet",
+      "source_documented": true,
+      "label": "refonte site internet",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/robots.txt": {
+      "url": "https://www.edikka.com/robots.txt",
+      "source_documented": false,
+      "label": "robots.txt",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/schemas/cwv-evidence-lab-proof-v1-2.json": {
+      "url": "https://www.edikka.com/schemas/cwv-evidence-lab-proof-v1-2.json",
+      "source_documented": false,
+      "label": "cwv evidence lab proof v1 2.json",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    },
+    "https://www.edikka.com/test-preparation-agents-ia": {
+      "url": "https://www.edikka.com/test-preparation-agents-ia",
+      "source_documented": true,
+      "label": "test preparation agents ia",
+      "label_basis": "url_derived",
+      "kind": "url",
+      "metadata": null
+    },
+    "https://www.edikka.com/test-preparation-agents-ia.md": {
+      "url": "https://www.edikka.com/test-preparation-agents-ia.md",
+      "source_documented": false,
+      "label": "test preparation agents ia.md",
+      "label_basis": "url_derived",
+      "kind": "resource",
+      "metadata": null
+    }
+  },
+  "link_metadata": [
+    {
+      "source_url": "https://www.edikka.com/en/insights/seo/seo-architecture-website",
+      "destination_url": "https://www.edikka.com/insights/seo/architecture-seo-site",
+      "observed_at": "2026-09-09",
+      "inventory_source": "audit/reference-france-2026-09-09/crawl.json",
+      "anchor": "unavailable",
+      "page_area": "unknown",
+      "origin": "html",
+      "occurrence_count": "1",
+      "source_distinct_count": "14",
+      "verification_status": "archived_observation",
+      "limitations": "The archived crawl retained destinations but not anchor text or page-area classification.",
+      "row": 2
+    },
+    {
+      "source_url": "https://www.edikka.com/faq/seo",
+      "destination_url": "https://www.edikka.com/insights/seo/architecture-seo-site",
+      "observed_at": "2026-09-09",
+      "inventory_source": "audit/reference-france-2026-09-09/crawl.json",
+      "anchor": "unavailable",
+      "page_area": "unknown",
+      "origin": "html",
+      "occurrence_count": "1",
+      "source_distinct_count": "14",
+      "verification_status": "archived_observation",
+      "limitations": "The archived crawl retained destinations but not anchor text or page-area classification.",
+      "row": 3
+    },
+    {
+      "source_url": "https://www.edikka.com/insights/ia-automatisation-web/automatisation-seo-ia",
+      "destination_url": "https://www.edikka.com/insights/seo/architecture-seo-site",
+      "observed_at": "2026-09-09",
+      "inventory_source": "audit/reference-france-2026-09-09/crawl.json",
+      "anchor": "unavailable",
+      "page_area": "unknown",
+      "origin": "html",
+      "occurrence_count": "1",
+      "source_distinct_count": "14",
+      "verification_status": "archived_observation",
+      "limitations": "The archived crawl retained destinations but not anchor text or page-area classification.",
+      "row": 4
+    },
+    {
+      "source_url": "https://www.edikka.com/insights/seo",
+      "destination_url": "https://www.edikka.com/insights/seo/architecture-seo-site",
+      "observed_at": "2026-09-09",
+      "inventory_source": "audit/reference-france-2026-09-09/crawl.json",
+      "anchor": "unavailable",
+      "page_area": "unknown",
+      "origin": "html",
+      "occurrence_count": "2",
+      "source_distinct_count": "14",
+      "verification_status": "archived_observation",
+      "limitations": "The archived crawl retained destinations but not anchor text or page-area classification.",
+      "row": 5
+    },
+    {
+      "source_url": "https://www.edikka.com/insights/seo/ai-overviews-ai-mode-seo-recherche-ia",
+      "destination_url": "https://www.edikka.com/insights/seo/architecture-seo-site",
+      "observed_at": "2026-09-09",
+      "inventory_source": "audit/reference-france-2026-09-09/crawl.json",
+      "anchor": "unavailable",
+      "page_area": "unknown",
+      "origin": "html",
+      "occurrence_count": "1",
+      "source_distinct_count": "14",
+      "verification_status": "archived_observation",
+      "limitations": "The archived crawl retained destinations but not anchor text or page-area classification.",
+      "row": 6
+    },
+    {
+      "source_url": "https://www.edikka.com/insights/seo/architecture-seo-site",
+      "destination_url": "https://www.edikka.com/insights/seo/architecture-seo-site",
+      "observed_at": "2026-09-09",
+      "inventory_source": "audit/reference-france-2026-09-09/crawl.json",
+      "anchor": "unavailable",
+      "page_area": "unknown",
+      "origin": "html",
+      "occurrence_count": "9",
+      "source_distinct_count": "14",
+      "verification_status": "archived_observation",
+      "limitations": "The archived crawl retained destinations but not anchor text or page-area classification.",
+      "row": 7
+    },
+    {
+      "source_url": "https://www.edikka.com/insights/seo/audit-seo-complet",
+      "destination_url": "https://www.edikka.com/insights/seo/architecture-seo-site",
+      "observed_at": "2026-09-09",
+      "inventory_source": "audit/reference-france-2026-09-09/crawl.json",
+      "anchor": "unavailable",
+      "page_area": "unknown",
+      "origin": "html",
+      "occurrence_count": "3",
+      "source_distinct_count": "14",
+      "verification_status": "archived_observation",
+      "limitations": "The archived crawl retained destinations but not anchor text or page-area classification.",
+      "row": 8
+    },
+    {
+      "source_url": "https://www.edikka.com/insights/seo/donnees-structurees-seo-geo",
+      "destination_url": "https://www.edikka.com/insights/seo/architecture-seo-site",
+      "observed_at": "2026-09-09",
+      "inventory_source": "audit/reference-france-2026-09-09/crawl.json",
+      "anchor": "unavailable",
+      "page_area": "unknown",
+      "origin": "html",
+      "occurrence_count": "2",
+      "source_distinct_count": "14",
+      "verification_status": "archived_observation",
+      "limitations": "The archived crawl retained destinations but not anchor text or page-area classification.",
+      "row": 9
+    },
+    {
+      "source_url": "https://www.edikka.com/insights/seo/erreurs-seo-visibilite",
+      "destination_url": "https://www.edikka.com/insights/seo/architecture-seo-site",
+      "observed_at": "2026-09-09",
+      "inventory_source": "audit/reference-france-2026-09-09/crawl.json",
+      "anchor": "unavailable",
+      "page_area": "unknown",
+      "origin": "html",
+      "occurrence_count": "3",
+      "source_distinct_count": "14",
+      "verification_status": "archived_observation",
+      "limitations": "The archived crawl retained destinations but not anchor text or page-area classification.",
+      "row": 10
+    },
+    {
+      "source_url": "https://www.edikka.com/insights/seo/pages-piliers-seo",
+      "destination_url": "https://www.edikka.com/insights/seo/architecture-seo-site",
+      "observed_at": "2026-09-09",
+      "inventory_source": "audit/reference-france-2026-09-09/crawl.json",
+      "anchor": "unavailable",
+      "page_area": "unknown",
+      "origin": "html",
+      "occurrence_count": "5",
+      "source_distinct_count": "14",
+      "verification_status": "archived_observation",
+      "limitations": "The archived crawl retained destinations but not anchor text or page-area classification.",
+      "row": 11
+    },
+    {
+      "source_url": "https://www.edikka.com/insights/seo/qu-est-ce-que-le-geo",
+      "destination_url": "https://www.edikka.com/insights/seo/architecture-seo-site",
+      "observed_at": "2026-09-09",
+      "inventory_source": "audit/reference-france-2026-09-09/crawl.json",
+      "anchor": "unavailable",
+      "page_area": "unknown",
+      "origin": "html",
+      "occurrence_count": "1",
+      "source_distinct_count": "14",
+      "verification_status": "archived_observation",
+      "limitations": "The archived crawl retained destinations but not anchor text or page-area classification.",
+      "row": 12
+    },
+    {
+      "source_url": "https://www.edikka.com/insights/seo/seo-2026-ce-qui-fonctionne",
+      "destination_url": "https://www.edikka.com/insights/seo/architecture-seo-site",
+      "observed_at": "2026-09-09",
+      "inventory_source": "audit/reference-france-2026-09-09/crawl.json",
+      "anchor": "unavailable",
+      "page_area": "unknown",
+      "origin": "html",
+      "occurrence_count": "5",
+      "source_distinct_count": "14",
+      "verification_status": "archived_observation",
+      "limitations": "The archived crawl retained destinations but not anchor text or page-area classification.",
+      "row": 13
+    },
+    {
+      "source_url": "https://www.edikka.com/insights/seo/site-citable-ia",
+      "destination_url": "https://www.edikka.com/insights/seo/architecture-seo-site",
+      "observed_at": "2026-09-09",
+      "inventory_source": "audit/reference-france-2026-09-09/crawl.json",
+      "anchor": "unavailable",
+      "page_area": "unknown",
+      "origin": "html",
+      "occurrence_count": "2",
+      "source_distinct_count": "14",
+      "verification_status": "archived_observation",
+      "limitations": "The archived crawl retained destinations but not anchor text or page-area classification.",
+      "row": 14
+    },
+    {
+      "source_url": "https://www.edikka.com/insights/seo/site-pret-agents-ia",
+      "destination_url": "https://www.edikka.com/insights/seo/architecture-seo-site",
+      "observed_at": "2026-09-09",
+      "inventory_source": "audit/reference-france-2026-09-09/crawl.json",
+      "anchor": "unavailable",
+      "page_area": "unknown",
+      "origin": "html",
+      "occurrence_count": "1",
+      "source_distinct_count": "14",
+      "verification_status": "archived_observation",
+      "limitations": "The archived crawl retained destinations but not anchor text or page-area classification.",
+      "row": 15
+    },
+    {
+      "source_url": "https://www.edikka.com/en/faq/seo",
+      "destination_url": "https://www.edikka.com/en/insights/seo/seo-architecture-website",
+      "observed_at": "2026-09-09",
+      "inventory_source": "audit/reference-france-2026-09-09/crawl.json",
+      "anchor": "unavailable",
+      "page_area": "unknown",
+      "origin": "html",
+      "occurrence_count": "1",
+      "source_distinct_count": "13",
+      "verification_status": "archived_observation",
+      "limitations": "The archived crawl retained destinations but not anchor text or page-area classification.",
+      "row": 16
+    },
+    {
+      "source_url": "https://www.edikka.com/en/insights",
+      "destination_url": "https://www.edikka.com/en/insights/seo/seo-architecture-website",
+      "observed_at": "2026-09-09",
+      "inventory_source": "audit/reference-france-2026-09-09/crawl.json",
+      "anchor": "unavailable",
+      "page_area": "unknown",
+      "origin": "html",
+      "occurrence_count": "1",
+      "source_distinct_count": "13",
+      "verification_status": "archived_observation",
+      "limitations": "The archived crawl retained destinations but not anchor text or page-area classification.",
+      "row": 17
+    },
+    {
+      "source_url": "https://www.edikka.com/en/insights/seo",
+      "destination_url": "https://www.edikka.com/en/insights/seo/seo-architecture-website",
+      "observed_at": "2026-09-09",
+      "inventory_source": "audit/reference-france-2026-09-09/crawl.json",
+      "anchor": "unavailable",
+      "page_area": "unknown",
+      "origin": "html",
+      "occurrence_count": "1",
+      "source_distinct_count": "13",
+      "verification_status": "archived_observation",
+      "limitations": "The archived crawl retained destinations but not anchor text or page-area classification.",
+      "row": 18
+    },
+    {
+      "source_url": "https://www.edikka.com/en/insights/seo/ai-citable-website",
+      "destination_url": "https://www.edikka.com/en/insights/seo/seo-architecture-website",
+      "observed_at": "2026-09-09",
+      "inventory_source": "audit/reference-france-2026-09-09/crawl.json",
+      "anchor": "unavailable",
+      "page_area": "unknown",
+      "origin": "html",
+      "occurrence_count": "2",
+      "source_distinct_count": "13",
+      "verification_status": "archived_observation",
+      "limitations": "The archived crawl retained destinations but not anchor text or page-area classification.",
+      "row": 19
+    },
+    {
+      "source_url": "https://www.edikka.com/en/insights/seo/ai-overviews-ai-mode-seo-ai-search",
+      "destination_url": "https://www.edikka.com/en/insights/seo/seo-architecture-website",
+      "observed_at": "2026-09-09",
+      "inventory_source": "audit/reference-france-2026-09-09/crawl.json",
+      "anchor": "unavailable",
+      "page_area": "unknown",
+      "origin": "html",
+      "occurrence_count": "1",
+      "source_distinct_count": "13",
+      "verification_status": "archived_observation",
+      "limitations": "The archived crawl retained destinations but not anchor text or page-area classification.",
+      "row": 20
+    },
+    {
+      "source_url": "https://www.edikka.com/en/insights/seo/complete-seo-audit",
+      "destination_url": "https://www.edikka.com/en/insights/seo/seo-architecture-website",
+      "observed_at": "2026-09-09",
+      "inventory_source": "audit/reference-france-2026-09-09/crawl.json",
+      "anchor": "unavailable",
+      "page_area": "unknown",
+      "origin": "html",
+      "occurrence_count": "1",
+      "source_distinct_count": "13",
+      "verification_status": "archived_observation",
+      "limitations": "The archived crawl retained destinations but not anchor text or page-area classification.",
+      "row": 21
+    },
+    {
+      "source_url": "https://www.edikka.com/en/insights/seo/seo-2026-what-really-works",
+      "destination_url": "https://www.edikka.com/en/insights/seo/seo-architecture-website",
+      "observed_at": "2026-09-09",
+      "inventory_source": "audit/reference-france-2026-09-09/crawl.json",
+      "anchor": "unavailable",
+      "page_area": "unknown",
+      "origin": "html",
+      "occurrence_count": "1",
+      "source_distinct_count": "13",
+      "verification_status": "archived_observation",
+      "limitations": "The archived crawl retained destinations but not anchor text or page-area classification.",
+      "row": 22
+    },
+    {
+      "source_url": "https://www.edikka.com/en/insights/seo/seo-architecture-website",
+      "destination_url": "https://www.edikka.com/en/insights/seo/seo-architecture-website",
+      "observed_at": "2026-09-09",
+      "inventory_source": "audit/reference-france-2026-09-09/crawl.json",
+      "anchor": "unavailable",
+      "page_area": "unknown",
+      "origin": "html",
+      "occurrence_count": "8",
+      "source_distinct_count": "13",
+      "verification_status": "archived_observation",
+      "limitations": "The archived crawl retained destinations but not anchor text or page-area classification.",
+      "row": 23
+    },
+    {
+      "source_url": "https://www.edikka.com/en/insights/seo/seo-mistakes-visibility",
+      "destination_url": "https://www.edikka.com/en/insights/seo/seo-architecture-website",
+      "observed_at": "2026-09-09",
+      "inventory_source": "audit/reference-france-2026-09-09/crawl.json",
+      "anchor": "unavailable",
+      "page_area": "unknown",
+      "origin": "html",
+      "occurrence_count": "3",
+      "source_distinct_count": "13",
+      "verification_status": "archived_observation",
+      "limitations": "The archived crawl retained destinations but not anchor text or page-area classification.",
+      "row": 24
+    },
+    {
+      "source_url": "https://www.edikka.com/en/insights/seo/seo-pillar-pages",
+      "destination_url": "https://www.edikka.com/en/insights/seo/seo-architecture-website",
+      "observed_at": "2026-09-09",
+      "inventory_source": "audit/reference-france-2026-09-09/crawl.json",
+      "anchor": "unavailable",
+      "page_area": "unknown",
+      "origin": "html",
+      "occurrence_count": "1",
+      "source_distinct_count": "13",
+      "verification_status": "archived_observation",
+      "limitations": "The archived crawl retained destinations but not anchor text or page-area classification.",
+      "row": 25
+    },
+    {
+      "source_url": "https://www.edikka.com/en/insights/seo/structured-data-seo-geo",
+      "destination_url": "https://www.edikka.com/en/insights/seo/seo-architecture-website",
+      "observed_at": "2026-09-09",
+      "inventory_source": "audit/reference-france-2026-09-09/crawl.json",
+      "anchor": "unavailable",
+      "page_area": "unknown",
+      "origin": "html",
+      "occurrence_count": "1",
+      "source_distinct_count": "13",
+      "verification_status": "archived_observation",
+      "limitations": "The archived crawl retained destinations but not anchor text or page-area classification.",
+      "row": 26
+    },
+    {
+      "source_url": "https://www.edikka.com/en/insights/seo/what-is-geo",
+      "destination_url": "https://www.edikka.com/en/insights/seo/seo-architecture-website",
+      "observed_at": "2026-09-09",
+      "inventory_source": "audit/reference-france-2026-09-09/crawl.json",
+      "anchor": "unavailable",
+      "page_area": "unknown",
+      "origin": "html",
+      "occurrence_count": "1",
+      "source_distinct_count": "13",
+      "verification_status": "archived_observation",
+      "limitations": "The archived crawl retained destinations but not anchor text or page-area classification.",
+      "row": 27
+    },
+    {
+      "source_url": "https://www.edikka.com/insights/seo/architecture-seo-site",
+      "destination_url": "https://www.edikka.com/en/insights/seo/seo-architecture-website",
+      "observed_at": "2026-09-09",
+      "inventory_source": "audit/reference-france-2026-09-09/crawl.json",
+      "anchor": "unavailable",
+      "page_area": "unknown",
+      "origin": "html",
+      "occurrence_count": "1",
+      "source_distinct_count": "13",
+      "verification_status": "archived_observation",
+      "limitations": "The archived crawl retained destinations but not anchor text or page-area classification.",
+      "row": 28
+    }
+  ],
+  "references": [
+    {
+      "root": "https://www.edikka.com/",
+      "target": "https://www.edikka.com/insights/seo/architecture-seo-site",
+      "target_outgoing_documented": true,
+      "source_outgoing_documented": true,
+      "status": "reachable",
+      "distance": 3,
+      "count": "37",
+      "paths": [
+        [
+          "https://www.edikka.com/",
+          "https://www.edikka.com/accessibilite",
+          "https://www.edikka.com/faq/seo",
+          "https://www.edikka.com/insights/seo/architecture-seo-site"
+        ],
+        [
+          "https://www.edikka.com/",
+          "https://www.edikka.com/bibliotheque",
+          "https://www.edikka.com/insights/ia-automatisation-web/automatisation-seo-ia",
+          "https://www.edikka.com/insights/seo/architecture-seo-site"
+        ],
+        [
+          "https://www.edikka.com/",
+          "https://www.edikka.com/bibliotheque",
+          "https://www.edikka.com/insights/seo/qu-est-ce-que-le-geo",
+          "https://www.edikka.com/insights/seo/architecture-seo-site"
+        ],
+        [
+          "https://www.edikka.com/",
+          "https://www.edikka.com/expertise/ia",
+          "https://www.edikka.com/insights/ia-automatisation-web/automatisation-seo-ia",
+          "https://www.edikka.com/insights/seo/architecture-seo-site"
+        ],
+        [
+          "https://www.edikka.com/",
+          "https://www.edikka.com/expertise/seo",
+          "https://www.edikka.com/faq/seo",
+          "https://www.edikka.com/insights/seo/architecture-seo-site"
+        ],
+        [
+          "https://www.edikka.com/",
+          "https://www.edikka.com/expertise/seo",
+          "https://www.edikka.com/insights/seo",
+          "https://www.edikka.com/insights/seo/architecture-seo-site"
+        ],
+        [
+          "https://www.edikka.com/",
+          "https://www.edikka.com/expertise/seo",
+          "https://www.edikka.com/insights/seo/ai-overviews-ai-mode-seo-recherche-ia",
+          "https://www.edikka.com/insights/seo/architecture-seo-site"
+        ],
+        [
+          "https://www.edikka.com/",
+          "https://www.edikka.com/expertise/seo",
+          "https://www.edikka.com/insights/seo/audit-seo-complet",
+          "https://www.edikka.com/insights/seo/architecture-seo-site"
+        ],
+        [
+          "https://www.edikka.com/",
+          "https://www.edikka.com/expertise/seo",
+          "https://www.edikka.com/insights/seo/donnees-structurees-seo-geo",
+          "https://www.edikka.com/insights/seo/architecture-seo-site"
+        ],
+        [
+          "https://www.edikka.com/",
+          "https://www.edikka.com/expertise/seo",
+          "https://www.edikka.com/insights/seo/pages-piliers-seo",
+          "https://www.edikka.com/insights/seo/architecture-seo-site"
+        ],
+        [
+          "https://www.edikka.com/",
+          "https://www.edikka.com/expertise/seo",
+          "https://www.edikka.com/insights/seo/qu-est-ce-que-le-geo",
+          "https://www.edikka.com/insights/seo/architecture-seo-site"
+        ],
+        [
+          "https://www.edikka.com/",
+          "https://www.edikka.com/expertise/seo",
+          "https://www.edikka.com/insights/seo/site-citable-ia",
+          "https://www.edikka.com/insights/seo/architecture-seo-site"
+        ],
+        [
+          "https://www.edikka.com/",
+          "https://www.edikka.com/expertise/seo",
+          "https://www.edikka.com/insights/seo/site-pret-agents-ia",
+          "https://www.edikka.com/insights/seo/architecture-seo-site"
+        ],
+        [
+          "https://www.edikka.com/",
+          "https://www.edikka.com/faq",
+          "https://www.edikka.com/faq/seo",
+          "https://www.edikka.com/insights/seo/architecture-seo-site"
+        ],
+        [
+          "https://www.edikka.com/",
+          "https://www.edikka.com/insights",
+          "https://www.edikka.com/insights/ia-automatisation-web/automatisation-seo-ia",
+          "https://www.edikka.com/insights/seo/architecture-seo-site"
+        ],
+        [
+          "https://www.edikka.com/",
+          "https://www.edikka.com/insights",
+          "https://www.edikka.com/insights/seo",
+          "https://www.edikka.com/insights/seo/architecture-seo-site"
+        ],
+        [
+          "https://www.edikka.com/",
+          "https://www.edikka.com/insights",
+          "https://www.edikka.com/insights/seo/ai-overviews-ai-mode-seo-recherche-ia",
+          "https://www.edikka.com/insights/seo/architecture-seo-site"
+        ],
+        [
+          "https://www.edikka.com/",
+          "https://www.edikka.com/insights",
+          "https://www.edikka.com/insights/seo/pages-piliers-seo",
+          "https://www.edikka.com/insights/seo/architecture-seo-site"
+        ],
+        [
+          "https://www.edikka.com/",
+          "https://www.edikka.com/insights",
+          "https://www.edikka.com/insights/seo/qu-est-ce-que-le-geo",
+          "https://www.edikka.com/insights/seo/architecture-seo-site"
+        ],
+        [
+          "https://www.edikka.com/",
+          "https://www.edikka.com/insights/developpement-web/accessibilite-seo-ia-html-semantique",
+          "https://www.edikka.com/insights/seo",
+          "https://www.edikka.com/insights/seo/architecture-seo-site"
+        ],
+        [
+          "https://www.edikka.com/",
+          "https://www.edikka.com/insights/developpement-web/accessibilite-seo-ia-html-semantique",
+          "https://www.edikka.com/insights/seo/donnees-structurees-seo-geo",
+          "https://www.edikka.com/insights/seo/architecture-seo-site"
+        ],
+        [
+          "https://www.edikka.com/",
+          "https://www.edikka.com/insights/developpement-web/accessibilite-seo-ia-html-semantique",
+          "https://www.edikka.com/insights/seo/qu-est-ce-que-le-geo",
+          "https://www.edikka.com/insights/seo/architecture-seo-site"
+        ],
+        [
+          "https://www.edikka.com/",
+          "https://www.edikka.com/insights/developpement-web/accessibilite-seo-ia-html-semantique",
+          "https://www.edikka.com/insights/seo/site-citable-ia",
+          "https://www.edikka.com/insights/seo/architecture-seo-site"
+        ],
+        [
+          "https://www.edikka.com/",
+          "https://www.edikka.com/insights/developpement-web/audit-accessibilite-reel-tests-humains-outils",
+          "https://www.edikka.com/insights/seo",
+          "https://www.edikka.com/insights/seo/architecture-seo-site"
+        ],
+        [
+          "https://www.edikka.com/",
+          "https://www.edikka.com/insights/developpement-web/audit-accessibilite-reel-tests-humains-outils",
+          "https://www.edikka.com/insights/seo/site-citable-ia",
+          "https://www.edikka.com/insights/seo/architecture-seo-site"
+        ],
+        [
+          "https://www.edikka.com/",
+          "https://www.edikka.com/insights/developpement-web/formulaire-accessible-erreurs-contacts-perdus",
+          "https://www.edikka.com/insights/seo",
+          "https://www.edikka.com/insights/seo/architecture-seo-site"
+        ],
+        [
+          "https://www.edikka.com/",
+          "https://www.edikka.com/insights/developpement-web/formulaire-accessible-erreurs-contacts-perdus",
+          "https://www.edikka.com/insights/seo/site-citable-ia",
+          "https://www.edikka.com/insights/seo/architecture-seo-site"
+        ],
+        [
+          "https://www.edikka.com/",
+          "https://www.edikka.com/insights/developpement-web/recette-site-web-avant-mise-en-ligne",
+          "https://www.edikka.com/insights/seo",
+          "https://www.edikka.com/insights/seo/architecture-seo-site"
+        ],
+        [
+          "https://www.edikka.com/",
+          "https://www.edikka.com/insights/seo/barometre-agences-geo-france-preuves-publiques",
+          "https://www.edikka.com/insights/seo",
+          "https://www.edikka.com/insights/seo/architecture-seo-site"
+        ],
+        [
+          "https://www.edikka.com/",
+          "https://www.edikka.com/insights/seo/barometre-agences-geo-france-preuves-publiques",
+          "https://www.edikka.com/insights/seo/qu-est-ce-que-le-geo",
+          "https://www.edikka.com/insights/seo/architecture-seo-site"
+        ],
+        [
+          "https://www.edikka.com/",
+          "https://www.edikka.com/insights/seo/barometre-agences-geo-france-preuves-publiques",
+          "https://www.edikka.com/insights/seo/site-pret-agents-ia",
+          "https://www.edikka.com/insights/seo/architecture-seo-site"
+        ],
+        [
+          "https://www.edikka.com/",
+          "https://www.edikka.com/insights/seo/migration-seo-refonte-site-internet",
+          "https://www.edikka.com/insights/seo",
+          "https://www.edikka.com/insights/seo/architecture-seo-site"
+        ],
+        [
+          "https://www.edikka.com/",
+          "https://www.edikka.com/insights/seo/migration-seo-refonte-site-internet",
+          "https://www.edikka.com/insights/seo/donnees-structurees-seo-geo",
+          "https://www.edikka.com/insights/seo/architecture-seo-site"
+        ],
+        [
+          "https://www.edikka.com/",
+          "https://www.edikka.com/insights/seo/migration-seo-refonte-site-internet",
+          "https://www.edikka.com/insights/seo/qu-est-ce-que-le-geo",
+          "https://www.edikka.com/insights/seo/architecture-seo-site"
+        ],
+        [
+          "https://www.edikka.com/",
+          "https://www.edikka.com/insights/seo/migration-seo-refonte-site-internet",
+          "https://www.edikka.com/insights/seo/site-pret-agents-ia",
+          "https://www.edikka.com/insights/seo/architecture-seo-site"
+        ],
+        [
+          "https://www.edikka.com/",
+          "https://www.edikka.com/insights/strategie-digitale/cahier-des-charges-refonte-site-internet",
+          "https://www.edikka.com/insights/seo",
+          "https://www.edikka.com/insights/seo/architecture-seo-site"
+        ],
+        [
+          "https://www.edikka.com/",
+          "https://www.edikka.com/insights/strategie-digitale/prix-refonte-site-internet",
+          "https://www.edikka.com/insights/seo",
+          "https://www.edikka.com/insights/seo/architecture-seo-site"
+        ]
+      ],
+      "shown": 37
+    },
+    {
+      "root": "https://www.edikka.com/",
+      "target": "https://www.edikka.com/en/insights/seo/seo-architecture-website",
+      "target_outgoing_documented": true,
+      "source_outgoing_documented": true,
+      "status": "reachable",
+      "distance": 3,
+      "count": "2",
+      "paths": [
+        [
+          "https://www.edikka.com/",
+          "https://www.edikka.com/en",
+          "https://www.edikka.com/en/insights",
+          "https://www.edikka.com/en/insights/seo/seo-architecture-website"
+        ],
+        [
+          "https://www.edikka.com/",
+          "https://www.edikka.com/insights",
+          "https://www.edikka.com/en/insights",
+          "https://www.edikka.com/en/insights/seo/seo-architecture-website"
+        ]
+      ],
+      "shown": 2
+    }
+  ],
+  "guided": {
+    "add": {
+      "operation": {
+        "type": "add",
+        "from": "https://www.edikka.com/",
+        "to": "https://www.edikka.com/insights/seo/architecture-seo-site"
+      },
+      "result": {
+        "root": "https://www.edikka.com/",
+        "target": "https://www.edikka.com/insights/seo/architecture-seo-site",
+        "target_outgoing_documented": true,
+        "source_outgoing_documented": true,
+        "status": "reachable",
+        "distance": 1,
+        "count": "1",
+        "paths": [
+          [
+            "https://www.edikka.com/",
+            "https://www.edikka.com/insights/seo/architecture-seo-site"
+          ]
+        ],
+        "shown": 1
+      }
+    },
+    "remove": {
+      "operation": {
+        "type": "remove",
+        "from": "https://www.edikka.com/faq/seo",
+        "to": "https://www.edikka.com/insights/seo/architecture-seo-site"
+      },
+      "result": {
+        "root": "https://www.edikka.com/",
+        "target": "https://www.edikka.com/insights/seo/architecture-seo-site",
+        "target_outgoing_documented": true,
+        "source_outgoing_documented": true,
+        "status": "reachable",
+        "distance": 3,
+        "count": "34",
+        "paths": [
+          [
+            "https://www.edikka.com/",
+            "https://www.edikka.com/bibliotheque",
+            "https://www.edikka.com/insights/ia-automatisation-web/automatisation-seo-ia",
+            "https://www.edikka.com/insights/seo/architecture-seo-site"
+          ],
+          [
+            "https://www.edikka.com/",
+            "https://www.edikka.com/bibliotheque",
+            "https://www.edikka.com/insights/seo/qu-est-ce-que-le-geo",
+            "https://www.edikka.com/insights/seo/architecture-seo-site"
+          ],
+          [
+            "https://www.edikka.com/",
+            "https://www.edikka.com/expertise/ia",
+            "https://www.edikka.com/insights/ia-automatisation-web/automatisation-seo-ia",
+            "https://www.edikka.com/insights/seo/architecture-seo-site"
+          ],
+          [
+            "https://www.edikka.com/",
+            "https://www.edikka.com/expertise/seo",
+            "https://www.edikka.com/insights/seo",
+            "https://www.edikka.com/insights/seo/architecture-seo-site"
+          ],
+          [
+            "https://www.edikka.com/",
+            "https://www.edikka.com/expertise/seo",
+            "https://www.edikka.com/insights/seo/ai-overviews-ai-mode-seo-recherche-ia",
+            "https://www.edikka.com/insights/seo/architecture-seo-site"
+          ],
+          [
+            "https://www.edikka.com/",
+            "https://www.edikka.com/expertise/seo",
+            "https://www.edikka.com/insights/seo/audit-seo-complet",
+            "https://www.edikka.com/insights/seo/architecture-seo-site"
+          ],
+          [
+            "https://www.edikka.com/",
+            "https://www.edikka.com/expertise/seo",
+            "https://www.edikka.com/insights/seo/donnees-structurees-seo-geo",
+            "https://www.edikka.com/insights/seo/architecture-seo-site"
+          ],
+          [
+            "https://www.edikka.com/",
+            "https://www.edikka.com/expertise/seo",
+            "https://www.edikka.com/insights/seo/pages-piliers-seo",
+            "https://www.edikka.com/insights/seo/architecture-seo-site"
+          ],
+          [
+            "https://www.edikka.com/",
+            "https://www.edikka.com/expertise/seo",
+            "https://www.edikka.com/insights/seo/qu-est-ce-que-le-geo",
+            "https://www.edikka.com/insights/seo/architecture-seo-site"
+          ],
+          [
+            "https://www.edikka.com/",
+            "https://www.edikka.com/expertise/seo",
+            "https://www.edikka.com/insights/seo/site-citable-ia",
+            "https://www.edikka.com/insights/seo/architecture-seo-site"
+          ],
+          [
+            "https://www.edikka.com/",
+            "https://www.edikka.com/expertise/seo",
+            "https://www.edikka.com/insights/seo/site-pret-agents-ia",
+            "https://www.edikka.com/insights/seo/architecture-seo-site"
+          ],
+          [
+            "https://www.edikka.com/",
+            "https://www.edikka.com/insights",
+            "https://www.edikka.com/insights/ia-automatisation-web/automatisation-seo-ia",
+            "https://www.edikka.com/insights/seo/architecture-seo-site"
+          ],
+          [
+            "https://www.edikka.com/",
+            "https://www.edikka.com/insights",
+            "https://www.edikka.com/insights/seo",
+            "https://www.edikka.com/insights/seo/architecture-seo-site"
+          ],
+          [
+            "https://www.edikka.com/",
+            "https://www.edikka.com/insights",
+            "https://www.edikka.com/insights/seo/ai-overviews-ai-mode-seo-recherche-ia",
+            "https://www.edikka.com/insights/seo/architecture-seo-site"
+          ],
+          [
+            "https://www.edikka.com/",
+            "https://www.edikka.com/insights",
+            "https://www.edikka.com/insights/seo/pages-piliers-seo",
+            "https://www.edikka.com/insights/seo/architecture-seo-site"
+          ],
+          [
+            "https://www.edikka.com/",
+            "https://www.edikka.com/insights",
+            "https://www.edikka.com/insights/seo/qu-est-ce-que-le-geo",
+            "https://www.edikka.com/insights/seo/architecture-seo-site"
+          ],
+          [
+            "https://www.edikka.com/",
+            "https://www.edikka.com/insights/developpement-web/accessibilite-seo-ia-html-semantique",
+            "https://www.edikka.com/insights/seo",
+            "https://www.edikka.com/insights/seo/architecture-seo-site"
+          ],
+          [
+            "https://www.edikka.com/",
+            "https://www.edikka.com/insights/developpement-web/accessibilite-seo-ia-html-semantique",
+            "https://www.edikka.com/insights/seo/donnees-structurees-seo-geo",
+            "https://www.edikka.com/insights/seo/architecture-seo-site"
+          ],
+          [
+            "https://www.edikka.com/",
+            "https://www.edikka.com/insights/developpement-web/accessibilite-seo-ia-html-semantique",
+            "https://www.edikka.com/insights/seo/qu-est-ce-que-le-geo",
+            "https://www.edikka.com/insights/seo/architecture-seo-site"
+          ],
+          [
+            "https://www.edikka.com/",
+            "https://www.edikka.com/insights/developpement-web/accessibilite-seo-ia-html-semantique",
+            "https://www.edikka.com/insights/seo/site-citable-ia",
+            "https://www.edikka.com/insights/seo/architecture-seo-site"
+          ],
+          [
+            "https://www.edikka.com/",
+            "https://www.edikka.com/insights/developpement-web/audit-accessibilite-reel-tests-humains-outils",
+            "https://www.edikka.com/insights/seo",
+            "https://www.edikka.com/insights/seo/architecture-seo-site"
+          ],
+          [
+            "https://www.edikka.com/",
+            "https://www.edikka.com/insights/developpement-web/audit-accessibilite-reel-tests-humains-outils",
+            "https://www.edikka.com/insights/seo/site-citable-ia",
+            "https://www.edikka.com/insights/seo/architecture-seo-site"
+          ],
+          [
+            "https://www.edikka.com/",
+            "https://www.edikka.com/insights/developpement-web/formulaire-accessible-erreurs-contacts-perdus",
+            "https://www.edikka.com/insights/seo",
+            "https://www.edikka.com/insights/seo/architecture-seo-site"
+          ],
+          [
+            "https://www.edikka.com/",
+            "https://www.edikka.com/insights/developpement-web/formulaire-accessible-erreurs-contacts-perdus",
+            "https://www.edikka.com/insights/seo/site-citable-ia",
+            "https://www.edikka.com/insights/seo/architecture-seo-site"
+          ],
+          [
+            "https://www.edikka.com/",
+            "https://www.edikka.com/insights/developpement-web/recette-site-web-avant-mise-en-ligne",
+            "https://www.edikka.com/insights/seo",
+            "https://www.edikka.com/insights/seo/architecture-seo-site"
+          ],
+          [
+            "https://www.edikka.com/",
+            "https://www.edikka.com/insights/seo/barometre-agences-geo-france-preuves-publiques",
+            "https://www.edikka.com/insights/seo",
+            "https://www.edikka.com/insights/seo/architecture-seo-site"
+          ],
+          [
+            "https://www.edikka.com/",
+            "https://www.edikka.com/insights/seo/barometre-agences-geo-france-preuves-publiques",
+            "https://www.edikka.com/insights/seo/qu-est-ce-que-le-geo",
+            "https://www.edikka.com/insights/seo/architecture-seo-site"
+          ],
+          [
+            "https://www.edikka.com/",
+            "https://www.edikka.com/insights/seo/barometre-agences-geo-france-preuves-publiques",
+            "https://www.edikka.com/insights/seo/site-pret-agents-ia",
+            "https://www.edikka.com/insights/seo/architecture-seo-site"
+          ],
+          [
+            "https://www.edikka.com/",
+            "https://www.edikka.com/insights/seo/migration-seo-refonte-site-internet",
+            "https://www.edikka.com/insights/seo",
+            "https://www.edikka.com/insights/seo/architecture-seo-site"
+          ],
+          [
+            "https://www.edikka.com/",
+            "https://www.edikka.com/insights/seo/migration-seo-refonte-site-internet",
+            "https://www.edikka.com/insights/seo/donnees-structurees-seo-geo",
+            "https://www.edikka.com/insights/seo/architecture-seo-site"
+          ],
+          [
+            "https://www.edikka.com/",
+            "https://www.edikka.com/insights/seo/migration-seo-refonte-site-internet",
+            "https://www.edikka.com/insights/seo/qu-est-ce-que-le-geo",
+            "https://www.edikka.com/insights/seo/architecture-seo-site"
+          ],
+          [
+            "https://www.edikka.com/",
+            "https://www.edikka.com/insights/seo/migration-seo-refonte-site-internet",
+            "https://www.edikka.com/insights/seo/site-pret-agents-ia",
+            "https://www.edikka.com/insights/seo/architecture-seo-site"
+          ],
+          [
+            "https://www.edikka.com/",
+            "https://www.edikka.com/insights/strategie-digitale/cahier-des-charges-refonte-site-internet",
+            "https://www.edikka.com/insights/seo",
+            "https://www.edikka.com/insights/seo/architecture-seo-site"
+          ],
+          [
+            "https://www.edikka.com/",
+            "https://www.edikka.com/insights/strategie-digitale/prix-refonte-site-internet",
+            "https://www.edikka.com/insights/seo",
+            "https://www.edikka.com/insights/seo/architecture-seo-site"
+          ]
+        ],
+        "shown": 34
+      }
+    }
+  }
+}
