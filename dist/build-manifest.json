@@ -15,12 +15,12 @@
       "sha256": "5b9b267f03f3d86eb8d4a8abe74b53df9c54db795570fb0d13cb9eb26f475a43"
     },
     "assets/favicon.svg": {
-      "bytes": 259,
-      "sha256": "905b84c8892e618d57d07a69fb3592aea833ed64aae66973e2a51f77a3c37641"
+      "bytes": 319,
+      "sha256": "bc888c3cb8bc837f94e98cbe16e8b5d1f53b790c80e204f9bbc8482d7d75c752"
     },
     "assets/render.mjs": {
-      "bytes": 25658,
-      "sha256": "79ef75cfae8fd042260d4cdbda36520ef82dda1fd2d8516ac98423f2c4836d34"
+      "bytes": 30577,
+      "sha256": "d15cce190bf0eb04f6323184fdd93407822ebf7d90f9e2c4351124609a922f28"
     },
     "assets/style.css": {
       "bytes": 11051,
@@ -35,12 +35,12 @@
       "sha256": "da7dd72a67518bed0680bac947720e3d5dbdf587fe9dcb4764f007c0aedec5f9"
     },
     "index-en.html": {
-      "bytes": 21591,
-      "sha256": "f6a5176a0272b5d4f4f847cd60e5eff163260fec7e8c77b75712610fea607746"
+      "bytes": 26274,
+      "sha256": "cc35496fd73575a239294fca995076443ca44b91916255d069ad9412b39c3fec"
     },
     "index.html": {
-      "bytes": 22640,
-      "sha256": "e188dd939ac7f39f60afad92cd6d757cfa446ba4a98c2e8e32ad677761930b3f"
+      "bytes": 27324,
+      "sha256": "7fa7c1d72ffa37707bbf0e6ec1811385b0d86a0b89a49b187dd6c8d8046d5199"
     },
     "originals/README.md": {
       "bytes": 2388,

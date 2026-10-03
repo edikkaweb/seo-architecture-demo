@@ -9,6 +9,8 @@ Démonstration Edikka **1.0.0**, interface français / anglais. Calcul local dan
 - [Reproduire le calcul / Reproduce the calculation](docs/REPRODUCTION.md)
 - [Vérifications et limites](docs/TESTING.md)
 
+![Aperçu de la démonstration Edikka](docs/preview.jpg)
+
 ## Ce qui est calculé
 
 Le paquet source Edikka **1.1.0**, [publié ici](https://www.edikka.com/docbd/data/architecture-seo-decision-matrix-v1.1/manifest.json), décrit l’archive du **9 septembre 2026**. Import vérifié le 1 octobre 2026 : 11 tailles et SHA-256 conformes. Originaux CC BY 4.0, jamais réécrits. La date d’exécution n’est pas une nouvelle observation du site.
@@ -48,3 +50,7 @@ No SEO score, ranking, traffic, indexation or visitor behaviour is inferred. Unr
 ## Licences
 
 Nouveau code : [MIT](LICENSE), copyright Edikka 2026. Données originales : [CC BY 4.0](originals/license.txt), attribution **Edikka — SEO Architecture Decision Matrix, version 1.1.0**, source et date d’accès dans `data/import-provenance.json`. Les données dérivées conservent cette attribution et la licence CC BY 4.0. Les marques ne sont pas concédées par ces licences.
+
+[Contribuer / Contributing](CONTRIBUTING.md) · [Toutes les démonstrations / All experiments](https://edikkaweb.github.io/)
+
+La détection automatique de GitHub peut afficher « Other » : le fichier LICENSE conserve les exclusions des archives, composants tiers et marques. Le code original reste sous MIT dans le périmètre indiqué. / GitHub may show “Other”; the existing licence scopes and exclusions remain authoritative.
